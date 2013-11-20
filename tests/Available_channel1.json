@@ -419,8 +419,12 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='channel-selector']//strong[.='mobile channel']"
+        "value": "//*[@id='product-list']/div[1]/div[4]/p/strong"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "setElementSelected",
