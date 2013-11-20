@@ -32,7 +32,10 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "6000"
+    },
+    {
+      "type" : "acceptAlert"
     }
   ]
 }
