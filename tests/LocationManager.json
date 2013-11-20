@@ -30,11 +30,11 @@
         "value": "submit"
       }
     },
-  {
+                 {
       "type": "pause",
       "waitTime": "4000"
     },
-    {
+                {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -47,7 +47,7 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "denn"
+      "text": "dennys"
     },
     {
       "type": "clickElement",
@@ -63,18 +63,31 @@
         "value": "change_account"
       }
     },
-  {
+                 {
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
       "type": "setElementText",
       "locator": {
         "type": "name",
         "value": "addressline"
       },
-      "text": "manas21"
+      "text": "alabama"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='locator_search']/ul/li[3]/select//option[3]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='locator_search']/ul/li[4]/select//option[2]"
+      }
     },
     {
       "type": "clickElement",
@@ -83,11 +96,10 @@
         "value": "search_button"
       }
     },
-  {
+     {
       "type": "pause",
       "waitTime": "4000"
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -95,65 +107,7 @@
         "value": "lightwindow_title_bar_close_link"
       }
     },
-  {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "advanced_search_button"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "location_name"
-      },
-      "text": "manas21"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "location_submit"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "9000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='panel']/table/tbody/tr[1]/td[2]/ul[2]/li[2]/span"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "location_phone"
-      },
-      "text": "00000000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "location_submit"
-      }
-    },
-                 {
+             {
       "type": "pause",
       "waitTime": "4000"
     }
