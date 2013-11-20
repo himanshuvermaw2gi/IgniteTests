@@ -182,12 +182,20 @@
       }
     },
     {
+    "type" : "pause",
+    "waitTime" : "4000"
+},
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='channel-product-wrapper']/div[2]/span/label/input"
       }
     },
+     {
+    "type" : "pause",
+    "waitTime" : "2000"
+},
     {
       "type": "setElementNotSelected",
       "locator": {
