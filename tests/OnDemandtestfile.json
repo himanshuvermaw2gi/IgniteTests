@@ -30,11 +30,11 @@
         "value": "submit"
       }
     },
-                {
+                 {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "4000"
     },
-    {
+                {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -49,7 +49,7 @@
       },
       "text": "dennys"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -65,7 +65,7 @@
     },
                 {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -74,51 +74,33 @@
         "value": "img[alt=\"Syndicate\"]"
       }
     },
-            {
+    {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "7000"
     },
     {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
-        "type": "link text",
-        "value": "History"
-      }
-    },
-                {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#job_history_table > #collection_ldshistory > tbody > tr.lightwindow.clickable > td"
+        "type": "xpath",
+        "value": "//table[@class='FormTable']/tbody/tr[1]/td[2]/p/select//option[4]"
       }
     },
     {
-      "type": "pause",
-      "waitTime": "4000"
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "countries"
+      },
+      "text": "AL"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "value": "view_file"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='job_history_table']//td[.='1078268866']"
-      }
-    },
-    {
+                {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -130,30 +112,23 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='job_history_table']//td[.='1075044104']"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "value": "add"
       }
     },
                 {
       "type": "pause",
-      "waitTime": "1000"
+      "waitTime": "3000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Your request is currently being processed. Please check your email for result."
+    },
+                {
+      "type": "pause",
+      "waitTime": "4000"
     }
   ]
 }
