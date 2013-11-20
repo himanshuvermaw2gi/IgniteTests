@@ -92,8 +92,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='collection_ldshistory']/tbody/tr[1]/td[1]"
+        "type": "css selector",
+        "value": "#job_history_table > #collection_ldshistory > tbody > tr.lightwindow.clickable > td"
       }
     },
     {
