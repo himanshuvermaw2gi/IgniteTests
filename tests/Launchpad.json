@@ -60,7 +60,7 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "btn-select-account"
+        "value": "change_account"
       }
     },
      {
