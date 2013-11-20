@@ -205,7 +205,7 @@
     },
     {
     "type" : "pause",
-    "waitTime" : "1000"
+    "waitTime" : "5000"
 },
     {
       "type": "setElementSelected",
