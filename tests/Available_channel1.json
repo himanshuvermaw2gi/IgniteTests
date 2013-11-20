@@ -552,10 +552,7 @@
         "type": "id",
         "value": "logout-button"
       }
-    },
-    {
-      "type": "pause",
-      "waitTime": "1000"
     }
+    
   ]
 }
