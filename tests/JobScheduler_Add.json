@@ -195,13 +195,7 @@
       },
 	  "text" : "himanshu@panalinks.com"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "add_sched"
-      }
-    },
+  
     {
       "type": "pause",
       "waitTime": "5000"
@@ -222,7 +216,18 @@
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
+    },
+      {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "add_sched"
+      }
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
