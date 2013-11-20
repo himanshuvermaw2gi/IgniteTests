@@ -64,10 +64,14 @@
       }
     },
      {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='Launchpad']/a/img"
+        "type": "css selector",
+        "value": "img[alt=\"Launchpad\"]"
       }
     },
     {
