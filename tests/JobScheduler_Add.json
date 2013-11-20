@@ -188,7 +188,7 @@
       "waitTime": "6000"
     },
     {
-      "type": "clickElement",
+      "type": "setElementText",
       "locator": {
         "type": "xpath",
         "value": "//*[@id='recipients']"
