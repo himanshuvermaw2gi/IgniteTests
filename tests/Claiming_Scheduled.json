@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-		{
+                {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -63,7 +63,7 @@
         "value": "change_account"
       }
     },
-		{
+                {
       "type": "pause",
       "waitTime": "2000"
     },
@@ -74,35 +74,76 @@
         "value": "img[alt=\"Syndicate\"]"
       }
     },
-		{
+    
+                {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Configuration"
+        "value": "Scheduled"
+      }
+    },
+                {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='ldsschedule']/table[1]/tbody/tr[1]/td[2]/select//option[4]"
       }
     },
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "global_directives"
+        "value": "countries"
       },
-      "text": "test123345"
+      "text": "AL"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='ldsschedule']/table[2]/tbody/tr[1]/td[2]/ul/li[1]/select//option[2]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='ldsschedule']/table[2]/tbody/tr[2]/td[2]/ul/li[1]/select//option[3]"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='ldsschedule']/table[2]/tbody/tr[2]/td[2]/ul/li[2]/select//option[2]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "recipients"
+      },
+      "text": "w2gi@panalinks.com"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "save"
+        "value": "add_sched"
       }
     },
-		{
+            {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -111,7 +152,7 @@
         "value": "lightwindow_title_bar_close_link"
       }
     },
-		{
+                {
       "type": "pause",
       "waitTime": "1000"
     }
