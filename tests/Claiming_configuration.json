@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-        {
+		{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -63,108 +63,46 @@
         "value": "change_account"
       }
     },
-        {
+		{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
-    
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "img[alt=\"AdminTools\"]"
+        "value": "img[alt=\"Syndicate\"]"
       }
     },
-
-        {
+		{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Competitive Analysis Builder"
+        "value": "Configuration"
       }
     },
-        {
-      "type": "pause",
-      "waitTime": "4000"
-    },
     {
-      "type": "clickElement",
+      "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "add_column_button"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#product_all_text > label"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "enable_disable_checkbox_product_all"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#product_all_text > label"
-      }
-    },
-    {
-      "type": "setElementNotSelected",
-      "locator": {
-        "type": "id",
-        "value": "enable_disable_checkbox_product_all"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='accounts_dropdown_1_chzn']/a/div/b"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='accounts_dropdown_1_chzn_o_81']"
+        "value": "global_directives"
       },
-      "text": "dennys"
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
+      "text": "test123345"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='accounts_dropdown_2_chzn']/a/div/b"
+        "type": "id",
+        "value": "save"
       }
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='accounts_dropdown_2_chzn_o_303']"
-      },
-      "text": "wafflehouse"
-    },
-    
-   
-    {
+		{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -172,6 +110,10 @@
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
+    },
+		{
+      "type": "pause",
+      "waitTime": "1000"
     }
   ]
 }
