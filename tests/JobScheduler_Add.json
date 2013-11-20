@@ -13,7 +13,7 @@
         "type": "id",
         "value": "loginid"
       },
-      "text": "qa_tester"
+      "text": "riyer"
     },
     {
       "type": "setElementText",
@@ -21,7 +21,7 @@
         "type": "id",
         "value": "password"
       },
-      "text": "Where2getit!"
+      "text": "ram@w2gi"
     },
     {
       "type": "clickElement",
@@ -30,32 +30,40 @@
         "value": "submit"
       }
     },
-    {
+        {
       "type": "pause",
       "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='accounts_chzn']/a/div/b"
+        "type": "css selector",
+        "value": "div > b"
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "setElementText",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='accounts_chzn_o_0']"
+        "type": "css selector",
+        "value": "input[type=\"text\"]"
+      },
+      "text": "chickfila"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "accounts_chzn_o_57"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "btn-select-account"
+        "value": "change_account"
       }
     },
-    {
+        {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -113,7 +121,7 @@
     },
     
     {
-      "type": "setElementText",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//*[@id='recipients']"
