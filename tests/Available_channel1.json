@@ -480,25 +480,9 @@
       "type": "verifyText",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[2]/td[2]"
-      },
-      "text": "Locator Searches"
-    },
-	{
-      "type": "verifyText",
-      "locator": {
-        "type": "xpath",
         "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[3]/td[2]"
       },
       "text": "Driving Direction Requested"
-    },
-	{
-      "type": "verifyText",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[4]/td[2]"
-      },
-      "text": "Locator Search Results"
     },
 	{
       "type": "verifyText",
