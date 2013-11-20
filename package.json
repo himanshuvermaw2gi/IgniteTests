@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "IgniteTests",
-  "description": "Ignite Selenium Tests, w/ configs for SauceLabs and BrowserStack",
+  "name": "BrowserStack1",
+  "description": "Selenium Test Cases, w/ configs for SauceLabs and BrowserStack",
   "author": {
     "name": "himanshu",
     "email": "himanshuverma@panalinks.com"
