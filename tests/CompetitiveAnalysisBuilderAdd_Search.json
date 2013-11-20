@@ -161,16 +161,10 @@
       "text": "wafflehouse"
     },
     
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "accounts_dropdown_2_chzn_o_303"
-      }
-    },
+   
     {
       "type": "pause",
-      "waitTime": "6000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
