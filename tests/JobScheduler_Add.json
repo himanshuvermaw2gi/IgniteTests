@@ -124,14 +124,7 @@
       "waitTime": "3000"
     },
     
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='recipients']"
-      },
-	  "text" : "himanshu@panalinks.com"
-    },
+    
     {
       "type": "setElementSelected",
       "locator": {
@@ -189,6 +182,18 @@
         "value": "matchRadius"
       },
       "text": "500"
+    },
+     {
+      "type": "pause",
+      "waitTime": "6000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='recipients']"
+      },
+	  "text" : "himanshu@panalinks.com"
     },
     {
       "type": "clickElement",
