@@ -120,8 +120,8 @@
       "text": "google-almonds"
     },
     {
-    	"type" : "pause",
-    	"waitTime" "4000"
+      "type": "pause",
+      "waitTime": "3000"
     },
     
     {
