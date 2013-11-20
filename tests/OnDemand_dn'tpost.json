@@ -65,7 +65,7 @@
     },
 		{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -76,36 +76,40 @@
     },
 		{
       "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Scheduled"
-      }
-    },
-    {
-      "type": "pause",
       "waitTime": "7000"
     },
     {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='sched_list_body']/tr[1]/td[1]"
+        "value": "//table[@class='FormTable']/tbody/tr[1]/td[2]/p/select//option[6]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "name",
+        "value": "countries"
+      },
+      "text": "AL"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "no_post"
       }
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Delete Scheduled Post"
+        "type": "id",
+        "value": "view_file"
       }
     },
 		{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -113,6 +117,28 @@
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
+    },
+    {
+      "type": "doubleClickElement",
+      "locator": {
+        "type": "id",
+        "value": "OmnibarRight"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "add"
+      }
+    },
+		{
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Your request is currently being processed. Please check your email for result."
     },
 		{
       "type": "pause",
