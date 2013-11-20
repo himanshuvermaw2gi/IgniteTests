@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "BrowserStack1",
+  "name": "IgniteTests",
   "description": "Selenium Test Cases, w/ configs for SauceLabs and BrowserStack",
   "author": {
     "name": "himanshu",
