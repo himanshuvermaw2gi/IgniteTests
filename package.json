@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "IgniteTests",
+  "description": "Ignite Selenium Tests, w/ configs for SauceLabs and BrowserStack",
+  "author": {
+    "name": "himanshu",
+    "email": "himanshuverma@panalinks.com"
+  },
+  "scripts": {
+    "preinstall": "npm i -g se-interpreter",
+    "test": "se-interpreter ./Interpreter_config.browsestack.json"
+  }
+}
