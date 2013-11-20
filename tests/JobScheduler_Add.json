@@ -119,6 +119,10 @@
       },
       "text": "google-almonds"
     },
+    {
+    	"type" : "pause",
+    	"waitType" "4000"
+    },
     
     {
       "type": "clickElement",
