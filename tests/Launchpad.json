@@ -13,7 +13,7 @@
         "type": "id",
         "value": "loginid"
       },
-      "text": "qa_tester"
+      "text": "riyer"
     },
     {
       "type": "setElementText",
@@ -21,7 +21,7 @@
         "type": "id",
         "value": "password"
       },
-      "text": "Where2getit!"
+      "text": "ram@w2gi"
     },
     {
       "type": "clickElement",
@@ -42,10 +42,18 @@
       }
     },
     {
-      "type": "setElementSelected",
+      "type": "setElementText",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='accounts_chzn_o_0']"
+        "type": "css selector",
+        "value": "input[type=\"text\"]"
+      },
+      "text": "chickfila"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "accounts_chzn_o_57"
       }
     },
     {
@@ -55,9 +63,16 @@
         "value": "btn-select-account"
       }
     },
+     {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"Launchpad\"]"
+      }
+    },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
