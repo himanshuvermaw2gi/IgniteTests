@@ -88,8 +88,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "tr.sched_row > td.sched_name"
+        "type": "xpath",
+        "value": "//*[@id='sched_list_body']/tr[1]/td[1]"
       }
     },
     {
