@@ -22,7 +22,7 @@
         }
       ],
       "scripts": [
-        "tests234/*"
+        "tests/*"
       ]
     }
   ]
