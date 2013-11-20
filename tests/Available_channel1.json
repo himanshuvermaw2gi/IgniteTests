@@ -204,12 +204,20 @@
       }
     },
     {
+    "type" : "pause",
+    "waitTime" : "1000"
+},
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='channel-product-wrapper']/div[2]/table/tbody/tr[12]/td[1]/input"
       }
     },
+    {
+    "type" : "pause",
+    "waitTime" : "1000"
+},
     {
       "type": "setElementSelected",
       "locator": {
@@ -218,6 +226,10 @@
       }
     },
     {
+    "type" : "pause",
+    "waitTime" : "1000"
+},
+    {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
@@ -225,12 +237,20 @@
       }
     },
     {
+    "type" : "pause",
+    "waitTime" : "1000"
+},
+    {
       "type": "setElementNotSelected",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='channel-product-wrapper']/div[2]/table/tbody/tr[10]/td[1]/input"
       }
     },
+    {
+    "type" : "pause",
+    "waitTime" : "1000"
+},
     {
       "type": "setElementNotSelected",
       "locator": {
@@ -239,12 +259,20 @@
       }
     },
     {
+    "type" : "pause",
+    "waitTime" : "1000"
+},
+    {
       "type": "setElementNotSelected",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='channel-product-wrapper']/div[2]/table/tbody/tr[12]/td[1]/input"
       }
     },
+    {
+    "type" : "pause",
+    "waitTime" : "1000"
+},
     {
       "type": "clickElement",
       "locator": {
@@ -253,6 +281,10 @@
       }
     },
     {
+    "type" : "pause",
+    "waitTime" : "1000"
+},
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
@@ -260,12 +292,20 @@
       }
     },
     {
+    "type" : "pause",
+    "waitTime" : "1000"
+},
+    {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='channel-selector']//strong[.='search channel']"
       }
     },
+    {
+    "type" : "pause",
+    "waitTime" : "1000"
+},
     {
       "type": "setElementSelected",
       "locator": {
