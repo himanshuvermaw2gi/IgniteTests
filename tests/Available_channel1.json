@@ -482,7 +482,7 @@
         "type": "xpath",
         "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[2]/td[2]"
       },
-      "text": "Locator Searches/IVR"
+      "text": "Locator Searches/ IVR"
     },
 	{
       "type": "verifyText",
@@ -498,7 +498,7 @@
         "type": "xpath",
         "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[4]/td[2]"
       },
-      "text": "Locator Search Results/IVR"
+      "text": "Locator Search Results/ IVR"
     },
 	{
       "type": "verifyText",
@@ -514,7 +514,7 @@
         "type": "xpath",
         "value": "//*[@id='product-list']/div[2]/div[4]/table/tbody/tr[6]/td[2]"
       },
-      "text": "Page Views"
+      "text": "Page View"
     },
 	{
       "type": "verifyText",
