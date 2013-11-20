@@ -1,0 +1,9 @@
+language: node_js
+before_script:
+     - "npm install -g se-interpreter"
+script:
+     - "se-interpreter Interpreter_config.browserstack.json"
+
+browserstack_connect:
+    username: "himanshu35"
+    secure: "CRZyGxU8EWcvoWaCDYpc"
