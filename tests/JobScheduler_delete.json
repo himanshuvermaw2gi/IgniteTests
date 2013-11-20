@@ -86,10 +86,6 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -105,13 +101,13 @@
     },
     {
       "type": "pause",
-      "waitTime": "9000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//table[@id='sched_table']/tbody/tr[11]/td[1]"
+        "value": "//table[@id='sched_table']/tbody/tr[4]/td[1]"
       }
     },
     {
@@ -122,15 +118,19 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "useCustomRadius"
+        "value": "useDefaultRadius"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "formclear"
+        "value": "delete_sched"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -144,6 +144,17 @@
       "locator": {
         "type": "id",
         "value": "useDefaultRadius"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "7000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
       }
     },
     {
@@ -159,7 +170,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
