@@ -66,8 +66,8 @@
      {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"Launchpad\"]"
+        "type": "xpath",
+        "value": "//*[@id='Launchpad']/a/img"
       }
     },
     {
