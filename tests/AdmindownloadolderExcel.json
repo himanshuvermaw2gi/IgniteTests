@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-                 {
+     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -63,7 +63,7 @@
         "value": "change_account"
       }
     },
-                 {
+     {
       "type": "pause",
       "waitTime": "4000"
     },
@@ -74,7 +74,7 @@
         "value": "img[alt=\"Files\"]"
       }
     },
-                 {
+     {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -86,16 +86,34 @@
       }
     },
     
+     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//table[@id='upload_outside_box']//label[.='Excel 2003 or older (.xls)']"
+        "value": "//table[@id='upload_outside_box']//label[.='Excel(.xlsx)']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "excel-xlsx"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "admin_download_button"
       }
     },
      {
       "type": "pause",
-      "waitTime": "6000"
+      "waitTime": "1000"
     }
   ]
 }
