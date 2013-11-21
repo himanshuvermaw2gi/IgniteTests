@@ -104,8 +104,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "excel-xlsx"
+        "type": "xpath",
+        "value": "//*[@id='Download']/tbody/tr[2]/td[2]/ul/li[3]/label"
       }
     },
     {
