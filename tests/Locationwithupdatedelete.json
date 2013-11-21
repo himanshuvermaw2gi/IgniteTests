@@ -7,6 +7,7 @@
       "type": "get",
       "url": "https://ignite.where2stageit.com/login.html"
     },
+    
     {
       "type": "setElementText",
       "locator": {
@@ -74,21 +75,23 @@
         "value": "img[alt=\"Files\"]"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "upload_file"
-      }
+                 {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "search_button"
+        "type": "xpath",
+        "value": "//div[@id='sched-box']//label[.='Update-Delete']"
       }
     },
-     {
+                 {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    
+            {
       "type": "pause",
       "waitTime": "2000"
     },
@@ -99,9 +102,9 @@
         "value": "lightwindow_title_bar_close_link"
       }
     },
-                 {
+                {
       "type": "pause",
-      "waitTime": "1000"
+      "waitTime": "4000"
     }
   ]
 }
