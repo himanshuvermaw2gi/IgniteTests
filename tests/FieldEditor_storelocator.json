@@ -110,8 +110,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='field_items']/li[1]"
+        "type": "css selector",
+        "value": "li.fieldItem"
       }
     },
                  {
