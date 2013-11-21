@@ -32,7 +32,7 @@
     },
      {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -65,7 +65,7 @@
     },
      {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -88,7 +88,7 @@
     
      {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -99,15 +99,9 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='Download']/tbody/tr[2]/td[2]/ul/li[3]/label"
-      }
-    },
+    
     {
       "type": "clickElement",
       "locator": {
