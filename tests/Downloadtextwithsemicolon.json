@@ -103,13 +103,7 @@
         "value": "//tr[@id='type_container']//label[.='Semicolon']"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "semicolon"
-      }
-    },
+    
     {
       "type": "clickElement",
       "locator": {
