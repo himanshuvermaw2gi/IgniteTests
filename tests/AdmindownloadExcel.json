@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-		{
+                 {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -63,7 +63,7 @@
         "value": "change_account"
       }
     },
-		{
+                 {
       "type": "pause",
       "waitTime": "4000"
     },
@@ -71,83 +71,29 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "img[alt=\"Accounts\"]"
+        "value": "img[alt=\"Files\"]"
       }
     },
-		{
+                 {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "NotActiveTab"
+        "type": "link text",
+        "value": "Admin Download"
       }
     },
-		{
-      "type": "pause",
-      "waitTime": "4000"
-    },
+    
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#table_label_clientcontactinformation > span.icon-chevron-down"
+        "type": "xpath",
+        "value": "//table[@id='upload_outside_box']//label[.='Excel 2003 or older (.xls)']"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_more_actions_in_clientcontactinformation_0"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_edit_in_clientcontactinformation_0"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "input_title_in_contactdetails"
-      },
-      "text": "test123"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_contents"
-      }
-    },
-		{
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "action_save_edit_clientcontactinformation_0"
-      }
-    },
-		{
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-		{
+     {
       "type": "pause",
       "waitTime": "1000"
     }
