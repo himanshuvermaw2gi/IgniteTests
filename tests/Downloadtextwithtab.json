@@ -8,6 +8,13 @@
       "url": "https://ignite.where2stageit.com/login.html"
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "container-wrapper"
+      }
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -49,7 +56,7 @@
       },
       "text": "dennys"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -87,23 +94,15 @@
     },
                  {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='down_cat_select']/select//option[2]"
+        "value": "//div[@id='down_cat_select']/select//option[3]"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//tr[@id='type_container']//label[.='Semicolon']"
-      }
-    },
-    
     {
       "type": "clickElement",
       "locator": {
