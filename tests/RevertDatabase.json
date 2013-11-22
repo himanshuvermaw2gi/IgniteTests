@@ -31,11 +31,11 @@
         "value": "submit"
       }
     },
-                 {
+		  {
       "type": "pause",
       "waitTime": "2000"
     },
-                {
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -64,7 +64,7 @@
         "value": "change_account"
       }
     },
-                 {
+		  {
       "type": "pause",
       "waitTime": "2000"
     },
@@ -75,46 +75,31 @@
         "value": "img[alt=\"Files\"]"
       }
     },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "li > label"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//table[@class='FormTable']//label[.='Update-Delete']"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "search_button"
-      }
-    },
-    {
+		  {
       "type": "pause",
       "waitTime": "2000"
     },
-        
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Revert"
+      }
+    },
+		  {
+      "type": "pause",
+      "waitTime": "2000"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "value": "revert_button"
       }
     },
-                {
+		  {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "1000"
     }
   ]
 }
