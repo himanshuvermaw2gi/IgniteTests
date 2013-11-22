@@ -122,18 +122,12 @@
       "type": "pause",
       "waitTime": "7000"
     },
+   
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='olapDataSourceInfo']"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[1]/div[2]/div[2]/div[1]/div[2]/div/form/div[3]/div[2]/div/div[2]/div"
+        "value": "//table[@id='olapToolForm']/tbody/tr[4]/td/select//option[2]"
       }
     },
     	{
