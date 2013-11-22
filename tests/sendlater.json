@@ -91,7 +91,7 @@
         "type": "id",
         "value": "sms_title"
       },
-      "text": "SRT04"
+      "text": "SRT06"
     },
     {
       "type": "setElementText",
@@ -200,12 +200,20 @@
       },
       "text": "riyer@where2getit.com"
     },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Save and Continue"
+        "type": "xpath",
+        "value": "//*[@id='pnlReport']/ul/li[2]/a"
       }
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
     },
     
     {
