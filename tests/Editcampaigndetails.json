@@ -109,7 +109,7 @@
         "type": "id",
         "value": "fieldViewInput"
       },
-      "text": "SRT03"
+      "text": "SRT04"
     },
     {
       "type": "clickElement",
@@ -149,7 +149,7 @@
         "type": "id",
         "value": "frequency"
       },
-      "text": "2"
+      "text": "6"
     },
                 {
       "type": "pause",
@@ -208,7 +208,7 @@
         "type": "id",
         "value": "dynMessageName"
       },
-      "text": "SRT04"
+      "text": "SRT05"
     },
     {
       "type": "setElementSelected",
@@ -292,7 +292,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='editCampSubmit']"
+        "value": "//ul[@class='liMainButtons']//button[.='Save Changes']"
       }
     },
     {
