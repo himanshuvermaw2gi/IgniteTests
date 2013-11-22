@@ -32,7 +32,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -76,7 +76,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -87,29 +87,25 @@
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "tabConnect"
-      }
-    },
-	{
-      "type": "pause",
       "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
+        "type": "id",
+        "value": "tabOpen"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
         "type": "css selector",
-        "value": "#btnNewRemote > span"
+        "value": "#btnOpenCSV > span"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
