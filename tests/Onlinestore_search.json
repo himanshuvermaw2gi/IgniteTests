@@ -135,10 +135,14 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "td > img"
+        "type": "xpath",
+        "value": "//*[@id='online-store']/table/tbody/tr[1]/td[1]"
       }
     },
 	{
