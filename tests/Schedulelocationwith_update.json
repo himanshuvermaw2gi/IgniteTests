@@ -30,12 +30,11 @@
         "value": "submit"
       }
     },
-     {
+                 {
       "type": "pause",
       "waitTime": "2000"
     },
-
-   {
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -48,13 +47,13 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "fellowes"
+      "text": "dennys"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "accounts_chzn_o_109"
+        "value": "accounts_chzn_o_80"
       }
     },
     {
@@ -64,19 +63,18 @@
         "value": "change_account"
       }
     },
-     {
+                 {
       "type": "pause",
       "waitTime": "2000"
     },
-
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Files"
+        "type": "css selector",
+        "value": "img[alt=\"Files\"]"
       }
     },
-    {
+                 {
       "type": "pause",
       "waitTime": "2000"
     },
@@ -87,22 +85,27 @@
         "value": "NotActiveTab"
       }
     },
-    {
+                 {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "2000"
     },
-    
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "li.Tooltip > label"
+      }
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='sched-box']//label[.='Replace']"
+        "value": "//div[@id='sched-box']//label[.='Update']"
       }
     },
-
-    {
+                 {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "setElementSelected",
@@ -115,12 +118,15 @@
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='sched-box']/table[2]/tbody/tr[5]/td[2]/select//option[1]"
+        "value": "//div[@id='sched-box']/table[2]/tbody/tr[5]/td[2]/select//option[2]"
       }
     },
     {
-      "type": "pause",
-      "waitTime": "3000"
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='sched-box']/table[2]/tbody/tr[5]/td[2]/select//option[1]"
+      }
     },
     {
       "type": "setElementText",
@@ -128,7 +134,7 @@
         "type": "id",
         "value": "username"
       },
-      "text": "w2gi1"
+      "text": "w2gi1@panalinks"
     },
     {
       "type": "setElementText",
@@ -136,7 +142,7 @@
         "type": "id",
         "value": "password"
       },
-      "text": "123456"
+      "text": "123456789"
     },
     {
       "type": "setElementText",
@@ -144,7 +150,7 @@
         "type": "id",
         "value": "filename"
       },
-      "text": "SRT02.text"
+      "text": "test78.txt"
     },
     {
       "type": "setElementText",
@@ -152,7 +158,7 @@
         "type": "id",
         "value": "path"
       },
-      "text": "/home/desktop"
+      "text": "/home/desktop/test01"
     },
     {
       "type": "setElementText",
@@ -160,13 +166,17 @@
         "type": "id",
         "value": "server"
       },
-      "text": "192.168.1.2"
+      "text": "192.168.1.30"
+    },
+                 {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='sched-box']/table[3]/tbody/tr[7]/td[2]/select//option[4]"
+        "value": "//div[@id='sched-box']/table[3]/tbody/tr[7]/td[2]/select//option[2]"
       }
     },
     {
@@ -187,23 +197,18 @@
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='sched-box']/table[4]/tbody/tr[3]/td[2]/ul/li[2]/select//option[4]"
+        "value": "//div[@id='sched-box']/table[4]/tbody/tr[3]/td[2]/ul/li[2]/select//option[2]"
       }
     },
-    {
+   {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "recipients"
       },
-      "text": "w2gi@panalinks.com"
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
+      "text": "w2gi1@panalinks.com"
     },
 
-    
     {
       "type": "clickElement",
       "locator": {
@@ -211,10 +216,21 @@
         "value": "add_sched"
       }
     },
-     {
+                 {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
+      }
+    },
+                {
+      "type": "pause",
+      "waitTime": "1000"
     }
-
+    
   ]
 }
