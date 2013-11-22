@@ -81,13 +81,39 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='browse-products']/table/tbody/tr[1]/td[8]/input"
+        "type": "link text",
+        "value": "Configuration"
       }
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.Button.btn-edit"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[7]/input"
+      },
+      "text": "test1"
+    },
+    {
       "type": "pause",
-      "waitTime": "1000"
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.Button.btn-confirm"
+      }
+    },
+	{
+      "type": "pause",
+      "waitTime": "2000"
     }
   ]
 }
