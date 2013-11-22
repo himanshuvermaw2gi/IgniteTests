@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
- {
+                {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -52,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_80 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_80"
       }
     },
     {
@@ -63,18 +63,18 @@
         "value": "change_account"
       }
     },
- {
+                {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Leads"
+        "type": "css selector",
+        "value": "img[alt=\"Leads\"]"
       }
     },
- {
+                {
       "type": "pause",
       "waitTime": "2000"
     },
@@ -86,12 +86,16 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "sms_title"
       },
-      "text": "SG03"
+      "text": "Rd01"
     },
     {
       "type": "setElementText",
@@ -99,7 +103,7 @@
         "type": "id",
         "value": "messageSubject"
       },
-      "text": "cricket"
+      "text": "Cricket"
     },
     {
       "type": "setElementText",
@@ -107,7 +111,7 @@
         "type": "id",
         "value": "messageReplyTo"
       },
-      "text": "w2gi@panalinks.com"
+      "text": "riyer@where2gitit.com"
     },
     {
       "type": "setElementText",
@@ -115,7 +119,7 @@
         "type": "id",
         "value": "messageFromName"
       },
-      "text": "kapil"
+      "text": "Himanshu"
     },
     {
       "type": "setElementText",
@@ -123,7 +127,7 @@
         "type": "id",
         "value": "messageFrom"
       },
-      "text": "kapil@panalinks.com"
+      "text": "himanshu@panalinks.com"
     },
     {
       "type": "clickElement",
@@ -133,35 +137,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "sendLater"
+        "value": "sendNow"
       }
     },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "sendDate"
-      },
-      "text": "2013-12-31"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "sendHours"
-      },
-      "text": "12"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "sendMinutes"
-      },
-      "text": "12"
+	{
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "setElementSelected",
@@ -176,11 +164,7 @@
         "type": "id",
         "value": "recipients"
       },
-      "text": "manas@panalinks.com"
-    },
- {
-      "type": "pause",
-      "waitTime": "3000"
+      "text": "riyer@where2getit.com"
     },
     {
       "type": "clickElement",
@@ -189,9 +173,9 @@
         "value": "Save and Continue"
       }
     },
- {
+    {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "sendKeysToElement",
@@ -199,11 +183,7 @@
         "type": "xpath",
         "value": "//html/body"
       },
-      "text": "This is a test mail"
-    },
- {
-      "type": "pause",
-      "waitTime": "7000"
+      "text": "this is a test mail1"
     },
     {
       "type": "clickElement",
@@ -214,7 +194,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -223,9 +203,9 @@
         "value": "lightwindow_title_bar_close_link"
       }
     },
-    {
+                {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "1000"
     }
   ]
 }
