@@ -91,7 +91,7 @@
         "type": "id",
         "value": "sms_title"
       },
-      "text": "SRT01"
+      "text": "SRT02"
     },
     {
       "type": "setElementText",
@@ -99,7 +99,7 @@
         "type": "id",
         "value": "messageSubject"
       },
-      "text": "test mail11"
+      "text": "test mail12"
     },
     {
       "type": "setElementText",
@@ -153,7 +153,7 @@
         "type": "id",
         "value": "sendDate"
       },
-      "text": "2013-11-21"
+      "text": "2013-11-20"
     },
     {
       "type": "setElementText",
@@ -236,7 +236,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
