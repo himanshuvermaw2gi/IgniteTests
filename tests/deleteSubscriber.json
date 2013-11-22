@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
-    {
+                {
       "type": "pause",
       "waitTime": "2000"
     },
@@ -63,7 +63,7 @@
         "value": "change_account"
       }
     },
-    {
+                {
       "type": "pause",
       "waitTime": "2000"
     },
@@ -74,66 +74,29 @@
         "value": "img[alt=\"Leads\"]"
       }
     },
-    {
+                {
       "type": "pause",
       "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Batch SMS"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//td[@id='messages_holder']/select//option[17]"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
         "type": "id",
-        "value": "sms_title"
-      },
-      "text": "Urgent mail for testing1"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "messageTextArea"
-      },
-      "text": "this is a test mail 12345667"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "batchSubmit"
+        "value": "NotActiveTab"
       }
     },
                 {
-                "type": "acceptAlert"
-                },
-                 {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "type": "css selector",
+        "value": "#leads > #leadsTable > tbody > tr.body_display_row > td.centered_row > a.SmallRightEndGrayButton"
       }
     },
-                {
+		 {
       "type": "pause",
       "waitTime": "2000"
     }
