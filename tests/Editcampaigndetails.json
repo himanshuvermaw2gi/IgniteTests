@@ -109,7 +109,7 @@
         "type": "id",
         "value": "fieldViewInput"
       },
-      "text": "SRT01"
+      "text": "SRT02"
     },
     {
       "type": "clickElement",
@@ -208,7 +208,7 @@
         "type": "id",
         "value": "dynMessageName"
       },
-      "text": "SRT02"
+      "text": "SRT03"
     },
     {
       "type": "setElementSelected",
@@ -285,7 +285,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "6000"
     },
     
     {
