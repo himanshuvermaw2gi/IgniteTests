@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-                {
+ {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -49,11 +49,11 @@
       },
       "text": "dennys"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_80"
+        "type": "css selector",
+        "value": "#accounts_chzn_o_80 > em"
       }
     },
     {
@@ -63,20 +63,20 @@
         "value": "change_account"
       }
     },
-                {
+ {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"Leads\"]"
+        "type": "link text",
+        "value": "Leads"
       }
     },
-                {
+ {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -91,7 +91,7 @@
         "type": "id",
         "value": "sms_title"
       },
-      "text": "SRT06"
+      "text": "SG02"
     },
     {
       "type": "setElementText",
@@ -99,7 +99,7 @@
         "type": "id",
         "value": "messageSubject"
       },
-      "text": "test mail12"
+      "text": "cricket"
     },
     {
       "type": "setElementText",
@@ -107,7 +107,7 @@
         "type": "id",
         "value": "messageReplyTo"
       },
-      "text": "riyer@where2gitit.com"
+      "text": "w2gi@panalinks.com"
     },
     {
       "type": "setElementText",
@@ -115,7 +115,7 @@
         "type": "id",
         "value": "messageFromName"
       },
-      "text": "Himanshu"
+      "text": "kapil"
     },
     {
       "type": "setElementText",
@@ -123,11 +123,7 @@
         "type": "id",
         "value": "messageFrom"
       },
-      "text": "himanshu@panalinks.com"
-    },
-                {
-      "type": "pause",
-      "waitTime": "3000"
+      "text": "kapil@panalinks.com"
     },
     {
       "type": "clickElement",
@@ -135,10 +131,6 @@
         "type": "id",
         "value": "start_slide_next"
       }
-    },
-                {
-      "type": "pause",
-      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -153,7 +145,7 @@
         "type": "id",
         "value": "sendDate"
       },
-      "text": "2013-11-23"
+      "text": "2013-12-31"
     },
     {
       "type": "setElementText",
@@ -161,7 +153,7 @@
         "type": "id",
         "value": "sendHours"
       },
-      "text": "22"
+      "text": "12"
     },
     {
       "type": "setElementText",
@@ -169,14 +161,7 @@
         "type": "id",
         "value": "sendMinutes"
       },
-      "text": "22"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='pnlSchedule']/ul/li[4]/select//option[2]"
-      }
+      "text": "12"
     },
     {
       "type": "setElementSelected",
@@ -186,94 +171,16 @@
       }
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "recipients"
-      }
-    },
-    {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "recipients"
       },
-      "text": "riyer@where2getit.com"
+      "text": "manas@panalinks.com"
     },
-     {
+ {
       "type": "pause",
       "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='pnlReport']/ul/li[2]/a"
-      }
-    },
-     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    
-    {
-      "type": "sendKeysToElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//html/body"
-      },
-      "text": "this is a test mail"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='editCampSubmit']"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "a.carousel-control.LeftEndGrayButton"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "id",
-        "value": "sendHours"
-      },
-      "text": "10"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "sendMinutes"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='pnlSchedule']/ul/li[4]/select//option[1]"
-      }
     },
     {
       "type": "clickElement",
@@ -282,29 +189,28 @@
         "value": "Save and Continue"
       }
     },
+ {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "sendKeysToElement",
       "locator": {
         "type": "xpath",
         "value": "//html/body"
       },
-      "text": "this is a test mail"
+      "text": "ais a test mail"
     },
-     {
+ {
       "type": "pause",
-      "waitTime": "5000"
-    },
-
-        {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='editMessageSubmit']"
-      }
+      "waitTime": "7000"
     },
     {
-      "type": "pause",
-      "waitTime": "3000"
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "editMessageSubmit"
+      }
     },
     {
       "type": "clickElement",
@@ -312,10 +218,6 @@
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
-    },
-                {
-      "type": "pause",
-      "waitTime": "1000"
     }
   ]
 }
