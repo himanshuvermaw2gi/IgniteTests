@@ -111,6 +111,10 @@
       },
       "text": "lastname13"
     },
+     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
     {
       "type": "clickElement",
       "locator": {
