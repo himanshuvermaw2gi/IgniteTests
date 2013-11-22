@@ -96,7 +96,7 @@
         "value": "//div[@id='leads']//a[.='Edit this Campaign']"
       }
     },
-    {
+        {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -118,12 +118,19 @@
         "value": "//*[@id='editCampSubmit']"
       }
     },
+     {
+        "type": "acceptAlert"
+        },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "fieldsMaxMin"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -142,7 +149,7 @@
         "type": "id",
         "value": "frequency"
       },
-      "text": "13"
+      "text": "2"
     },
                 {
       "type": "pause",
