@@ -3,8 +3,8 @@
   "name": "IgniteTests",
   "description": "Selenium Test Cases, w/ configs for SauceLabs and BrowserStack",
   "author": {
-    "name": "himanshu",
-    "email": "himanshuverma@panalinks.com"
+    "name": "Manas Behera",
+    "email": "manas@panalinks.com"
   },
   "scripts": {
     "preinstall": "npm i -g se-interpreter",
