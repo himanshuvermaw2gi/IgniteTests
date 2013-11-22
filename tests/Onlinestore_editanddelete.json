@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
-    {
+	{
       "type": "pause",
       "waitTime": "2000"
     },
@@ -63,7 +63,7 @@
         "value": "change_account"
       }
     },
-    {
+	{
       "type": "pause",
       "waitTime": "2000"
     },
@@ -74,18 +74,18 @@
         "value": "img[alt=\"Etailer\"]"
       }
     },
-    {
+	{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Configuration"
+        "value": "Online Store"
       }
     },
-    {
+	{
       "type": "pause",
       "waitTime": "2000"
     },
@@ -93,7 +93,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//*[@id='mfg-wrap']/table/tbody/tr/td[10]/input"
+        "value": "//div[@id='online-store']/table/tbody/tr[1]/td[7]/input"
       }
     },
     {
@@ -102,9 +102,9 @@
         "type": "xpath",
         "value": "//div[@class='dialog-content']/label[7]/input"
       },
-      "text": "test2"
+      "text": "USA2"
     },
-    {
+	{
       "type": "pause",
       "waitTime": "2000"
     },
@@ -118,6 +118,17 @@
 	{
       "type": "pause",
       "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='online-store']/table/tbody/tr[1]/td[8]/input"
+      }
+    },
+	{
+      "type": "pause",
+      "waitTime": "1000"
     }
   ]
 }
