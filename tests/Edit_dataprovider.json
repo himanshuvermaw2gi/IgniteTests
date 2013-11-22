@@ -32,7 +32,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -49,7 +49,7 @@
       },
       "text": "fellowes"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -85,16 +85,32 @@
         "value": "Configuration"
       }
     },
-    {
+     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='brand-wrap']//span[.='+ Add New Entry']"
+        "value": "//div[@id='provider-wrap']/table/tbody/tr[1]/td[11]/input"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "label > input[type=\"text\"]"
+      },
+      "text": "7"
+    },
+    {
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
