@@ -91,7 +91,7 @@
         "type": "id",
         "value": "sms_title"
       },
-      "text": "SG02"
+      "text": "SG03"
     },
     {
       "type": "setElementText",
@@ -199,7 +199,7 @@
         "type": "xpath",
         "value": "//html/body"
       },
-      "text": "ais a test mail"
+      "text": "This is a test mail"
     },
  {
       "type": "pause",
@@ -213,11 +213,19 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     }
   ]
 }
