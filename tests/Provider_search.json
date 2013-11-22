@@ -49,7 +49,7 @@
       },
       "text": "fellowes"
     },
-    {
+   {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -76,13 +76,13 @@
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Online Store"
+        "value": "Providers"
       }
     },
 	{
@@ -93,70 +93,46 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='online-store']//span[.='+ Add New Entry']"
+        "value": "//div[@id='providers']/table/thead/tr/td[9]/span[1]"
       }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[2]/input"
-      },
-      "text": "testgoogle2"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[3]/input"
-      },
-      "text": "google2"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[4]/input"
-      },
-      "text": "https://www.google.co.in"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[5]/input"
-      },
-      "text": "https://www.google.com"
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[6]/input"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[7]/input"
-      },
-      "text": "India1"
     },
 	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "2000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "input.search-box"
+      },
+      "text": "Amazon"
+    },
+	{
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "input.Button.btn-confirm"
+        "value": "input.Button.btn-search"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "1000"
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#providers > table.ContentTable > tbody > tr > td"
+      }
+    },
+	{
+      "type": "pause",
+      "waitTime": "2000"
     }
   ]
 }
