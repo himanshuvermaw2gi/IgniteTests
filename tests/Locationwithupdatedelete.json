@@ -77,13 +77,24 @@
     },
                  {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "2000"
+    },
+	{
+	"type": "clickElement",
+	"locator": {
+	 "type": "id",
+	 "value": "location_radio"
+	 }
+    }, 
+	{
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='sched-box']//label[.='Update-Delete']"
+        "value": "//table[@class='FormTable']//label[.='Update-Delete']"
       }
     },
                  {
@@ -91,10 +102,7 @@
       "waitTime": "2000"
     },
     
-            {
-      "type": "pause",
-      "waitTime": "2000"
-    },
+           
     {
       "type": "clickElement",
       "locator": {
