@@ -140,7 +140,7 @@
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//table[@id='olapToolForm']/tbody/tr[8]/td/select//option[3]"
+        "value": "//table[@id='olapToolForm']/tbody/tr[8]/td/select//option[2]"
       }
     },
 	{
@@ -152,6 +152,17 @@
       "locator": {
         "type": "id",
         "value": "olapApplyBtn"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "__flexmonsterPivotComponent__0"
       }
     }
   ]
