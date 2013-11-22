@@ -123,10 +123,17 @@
       "waitTime": "7000"
     },
     {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "div.ace_content"
+        "type": "xpath",
+        "value": "//*[@id='olapDataSourceInfo']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[1]/div[2]/div[2]/div[1]/div[2]/div/form/div[3]/div[2]/div/div[2]/div"
       }
     },
     	{
