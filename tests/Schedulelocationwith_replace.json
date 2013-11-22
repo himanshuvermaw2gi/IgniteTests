@@ -8,13 +8,6 @@
       "url": "https://ignite.where2stageit.com/login.html"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "container-wrapper"
-      }
-    },
-    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -37,11 +30,12 @@
         "value": "submit"
       }
     },
-                 {
+     {
       "type": "pause",
       "waitTime": "2000"
     },
-    {
+
+   {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -54,13 +48,13 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "dennys"
+      "text": "fellowes"
     },
-    {
+   {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "accounts_chzn_o_80"
+        "value": "accounts_chzn_o_109"
       }
     },
     {
@@ -70,18 +64,19 @@
         "value": "change_account"
       }
     },
-                 {
+     {
       "type": "pause",
       "waitTime": "2000"
     },
+
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "img[alt=\"Files\"]"
+        "type": "link text",
+        "value": "Files"
       }
     },
-                 {
+    {
       "type": "pause",
       "waitTime": "2000"
     },
@@ -92,22 +87,23 @@
         "value": "NotActiveTab"
       }
     },
-                 {
+    {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "4000"
     },
+    
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='sched-box']//label[.='Delete']"
+        "value": "//div[@id='sched-box']//label[.='Replace']"
       }
     },
-                 {
+
+    {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
-                    
     {
       "type": "setElementSelected",
       "locator": {
@@ -123,12 +119,16 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "username"
       },
-      "text": "w2gi"
+      "text": "w2gi1"
     },
     {
       "type": "setElementText",
@@ -144,7 +144,7 @@
         "type": "id",
         "value": "filename"
       },
-      "text": "test3.txt"
+      "text": "SRT02.text"
     },
     {
       "type": "setElementText",
@@ -160,13 +160,13 @@
         "type": "id",
         "value": "server"
       },
-      "text": "192.168.1.30"
+      "text": "192.168.1.2"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='sched-box']/table[3]/tbody/tr[7]/td[2]/select//option[2]"
+        "value": "//div[@id='sched-box']/table[3]/tbody/tr[7]/td[2]/select//option[4]"
       }
     },
     {
@@ -180,14 +180,14 @@
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='sched-box']/table[4]/tbody/tr[3]/td[2]/ul/li[1]/select//option[3]"
+        "value": "//div[@id='sched-box']/table[4]/tbody/tr[3]/td[2]/ul/li[1]/select//option[2]"
       }
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='sched-box']/table[4]/tbody/tr[3]/td[2]/ul/li[2]/select//option[3]"
+        "value": "//div[@id='sched-box']/table[4]/tbody/tr[3]/td[2]/ul/li[2]/select//option[4]"
       }
     },
     {
@@ -198,7 +198,12 @@
       },
       "text": "w2gi@panalinks.com"
     },
+    {
+      "type": "pause",
+      "waitTime": "2000"
+    },
 
+    
     {
       "type": "clickElement",
       "locator": {
@@ -206,20 +211,10 @@
         "value": "add_sched"
       }
     },
-                 {
+     {
       "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-                 {
-      "type": "pause",
-      "waitTime": "1000"
+      "waitTime": "2000"
     }
+
   ]
 }
