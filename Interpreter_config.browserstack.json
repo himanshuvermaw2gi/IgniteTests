@@ -14,8 +14,8 @@
             "browserName": "firefox",
             "platform" : "MAC",
             "acceptSslCerts": true,
-            "browserstack.user": "himanshu35",
-            "browserstack.key": "CRZyGxU8EWcvoWaCDYpc",
+            "browserstack.user": "Manas Behera",
+            "browserstack.key": "eX1xEpXvayTfP8AnvaSc",
             "browserstack.debug": true
                 
           }
