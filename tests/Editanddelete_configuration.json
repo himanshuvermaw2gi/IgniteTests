@@ -1,3 +1,4 @@
+
 {
   "type": "script",
   "seleniumVersion": "2",
@@ -6,13 +7,6 @@
     {
       "type": "get",
       "url": "https://ignite.where2stageit.com/login.html"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "container-wrapper"
-      }
     },
     {
       "type": "setElementText",
@@ -37,7 +31,7 @@
         "value": "submit"
       }
     },
-	{
+    {
       "type": "pause",
       "waitTime": "2000"
     },
@@ -70,7 +64,7 @@
         "value": "change_account"
       }
     },
-	{
+    {
       "type": "pause",
       "waitTime": "2000"
     },
@@ -81,7 +75,7 @@
         "value": "img[alt=\"Etailer\"]"
       }
     },
-	{
+    {
       "type": "pause",
       "waitTime": "2000"
     },
@@ -92,45 +86,38 @@
         "value": "Configuration"
       }
     },
-	{
+    {
       "type": "pause",
       "waitTime": "3000"
     },
     {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "css selector",
-        "value": "label > input[type=\"checkbox\"]"
-      }
-    },
-    {
-      "type": "setElementSelected",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='associate-wrap']/div[1]/label[8]/input"
+        "value": "//div[@id='brand-wrap']/table/tbody/tr[1]/td[4]/input"
       }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='associate-wrap']/div[1]/label[15]/input"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "input.Button.btn-save"
+        "value": "input.Button.btn-confirm"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.Button.btn-delete"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     }
   ]
 }
