@@ -75,10 +75,14 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "input.Button.btn-delete"
+        "type": "xpath",
+        "value": "//*[@id='browse-products']/table/tbody/tr[1]/td[8]/input"
       }
     },
     {
