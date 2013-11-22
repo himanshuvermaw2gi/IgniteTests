@@ -91,7 +91,7 @@
         "type": "id",
         "value": "sms_title"
       },
-      "text": "SRT03"
+      "text": "SRT04"
     },
     {
       "type": "setElementText",
@@ -282,9 +282,12 @@
       },
       "text": "this is a test mail"
     },
+     {
+      "type": "pause",
+      "waitTime": "5000"
+    },
 
-    
-    {
+        {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
