@@ -49,7 +49,7 @@
       },
       "text": "fellowes"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -82,23 +82,19 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Providers"
+        "value": "Configuration"
       }
     },
 	{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='providers']/table/thead/tr/td[9]/span[1]"
+        "type": "css selector",
+        "value": "span.icon-search"
       }
-    },
-	{
-      "type": "pause",
-      "waitTime": "2000"
     },
     {
       "type": "setElementText",
@@ -106,11 +102,7 @@
         "type": "css selector",
         "value": "input.search-box"
       },
-      "text": "Amazon"
-    },
-	{
-      "type": "pause",
-      "waitTime": "2000"
+      "text": "wafflehouse"
     },
     {
       "type": "clickElement",
@@ -124,11 +116,16 @@
       "waitTime": "2000"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#providers > table.ContentTable > tbody > tr > td"
-      }
+      "type": "verifyTextPresent",
+      "text": "Data providers - Account"
+    },
+	{
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "No data found"
     },
 	{
       "type": "pause",
