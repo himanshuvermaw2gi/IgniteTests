@@ -49,7 +49,7 @@
       },
       "text": "fellowes"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -75,47 +75,15 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "span.add-new"
+        "value": "input.Button.btn-delete"
       }
     },
     {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "label > input[type=\"text\"]"
-      },
-      "text": "SRT04"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[7]/input"
-      },
-      "text": "product03"
-    },
-    {
       "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input.Button.btn-confirm"
-      }
-    },
- {
-      "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "1000"
     }
-
   ]
 }
