@@ -8,6 +8,13 @@
       "url": "https://ignite.where2stageit.com/login.html"
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "container-wrapper"
+      }
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -76,13 +83,13 @@
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Online Store"
+        "value": "Provider Rank"
       }
     },
 	{
@@ -92,17 +99,67 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='online-store']/table/tbody/tr[1]/td[7]/input"
+        "type": "css selector",
+        "value": "input.Button.btn-edit"
       }
     },
     {
       "type": "setElementText",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[7]/input"
+        "type": "css selector",
+        "value": "label > input[type=\"text\"]"
       },
-      "text": "USA2"
+      "text": "4"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[3]/input"
+      },
+      "text": "64"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.Button.btn-confirm"
+      }
+    },
+	{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input.Button.btn-edit"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "label > input[type=\"text\"]"
+      },
+      "text": "5"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='dialog-content']/label[3]/input"
+      },
+      "text": "62"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "label > input[type=\"text\"]"
+      },
+      "text": "4"
     },
 	{
       "type": "pause",
@@ -118,17 +175,6 @@
 	{
       "type": "pause",
       "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='online-store']/table/tbody/tr[1]/td[8]/input"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "1000"
     }
   ]
 }
