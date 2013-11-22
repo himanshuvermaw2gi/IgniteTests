@@ -129,12 +129,20 @@
         "value": "//table[@id='olapToolForm']/tbody/tr[4]/td/select//option[2]"
       }
     },
+    	{
+      "type": "pause",
+      "waitTime": "4000"
+    },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
         "value": "//table[@id='olapToolForm']/tbody/tr[6]/td/select//option[2]"
       }
+    },
+    	{
+      "type": "pause",
+      "waitTime": "4000"
     },
     {
       "type": "setElementSelected",
