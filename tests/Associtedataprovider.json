@@ -8,6 +8,13 @@
       "url": "https://ignite.where2stageit.com/login.html"
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "container-wrapper"
+      }
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -76,38 +83,38 @@
     },
 	{
       "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Store Rank"
-      }
-    },
-	{
-      "type": "pause",
       "waitTime": "2000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "input.Button.btn-edit"
+        "type": "link text",
+        "value": "Configuration"
       }
     },
+	{
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
-      "type": "clickElement",
+      "type": "setElementSelected",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[2]/input"
+        "type": "css selector",
+        "value": "label > input[type=\"checkbox\"]"
       }
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//div[@class='dialog-content']/label[6]/input"
+        "value": "//div[@id='associate-wrap']/div[1]/label[8]/input"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='associate-wrap']/div[1]/label[15]/input"
       }
     },
 	{
@@ -118,23 +125,12 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "input.Button.btn-confirm"
+        "value": "input.Button.btn-save"
       }
     },
 	{
       "type": "pause",
       "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "input.Button.btn-delete"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "1000"
     }
   ]
 }
