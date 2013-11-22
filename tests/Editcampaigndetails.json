@@ -109,7 +109,7 @@
         "type": "id",
         "value": "fieldViewInput"
       },
-      "text": "lastname15"
+      "text": "SRT01"
     },
     {
       "type": "clickElement",
@@ -149,7 +149,7 @@
         "type": "id",
         "value": "frequency"
       },
-      "text": "2"
+      "text": "3"
     },
                 {
       "type": "pause",
@@ -208,7 +208,7 @@
         "type": "id",
         "value": "dynMessageName"
       },
-      "text": "test1"
+      "text": "SRT02"
     },
     {
       "type": "setElementSelected",
@@ -227,7 +227,7 @@
         "type": "id",
         "value": "dynMessageFrom"
       },
-      "text": "w2gi1@panalinks.com"
+      "text": "w2gi2@panalinks.com"
     },
                 {
       "type": "pause",
@@ -239,7 +239,7 @@
         "type": "id",
         "value": "dynMessageReplyTo"
       },
-      "text": "manas1@panalinks.com"
+      "text": "manas2@panalinks.com"
     },
     {
       "type": "setElementText",
@@ -247,7 +247,7 @@
         "type": "id",
         "value": "dynMessageSubject"
       },
-      "text": "test mail"
+      "text": "tests mail"
     },
     {
       "type": "setElementText",
@@ -255,7 +255,7 @@
         "type": "id",
         "value": "dynTextArea"
       },
-      "text": "this is a test mail"
+      "text": "this is a testing mail"
     },
                 {
       "type": "pause",
@@ -267,6 +267,9 @@
         "type": "id",
         "value": "saveDynMessage"
       }
+    },
+    {
+    	"type": "acceptAlert"
     },
 	{
       "type": "pause",
