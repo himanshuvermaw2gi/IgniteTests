@@ -109,7 +109,7 @@
         "type": "id",
         "value": "fieldViewInput"
       },
-      "text": "SRT02"
+      "text": "SRT03"
     },
     {
       "type": "clickElement",
@@ -149,7 +149,7 @@
         "type": "id",
         "value": "frequency"
       },
-      "text": "3"
+      "text": "2"
     },
                 {
       "type": "pause",
@@ -208,7 +208,7 @@
         "type": "id",
         "value": "dynMessageName"
       },
-      "text": "SRT03"
+      "text": "SRT04"
     },
     {
       "type": "setElementSelected",
@@ -291,8 +291,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "editCampSubmit"
+        "type": "xpath",
+        "value": "//*[@id='editCampSubmit']"
       }
     },
     {
