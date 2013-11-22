@@ -86,10 +86,14 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "input.Button.btn-edit"
+        "type": "xpath",
+        "value": "//*[@id='mfg-wrap']/table/tbody/tr/td[10]/input"
       }
     },
     {
@@ -98,7 +102,7 @@
         "type": "xpath",
         "value": "//div[@class='dialog-content']/label[7]/input"
       },
-      "text": "test1"
+      "text": "test2"
     },
     {
       "type": "pause",
