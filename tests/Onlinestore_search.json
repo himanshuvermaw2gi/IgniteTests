@@ -13,6 +13,21 @@
         "type": "id",
         "value": "loginid"
       },
+      "text": "qa_tester"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "loginid"
+      },
       "text": "riyer"
     },
     {
@@ -81,17 +96,32 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "input.Button.btn-edit"
+        "type": "link text",
+        "value": "Online Store"
       }
+    },
+	{
+      "type": "pause",
+      "waitTime": "2000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='online-store']/table/thead/tr/td[8]/span[1]"
+      }
+    },
+	{
+      "type": "pause",
+      "waitTime": "2000"
     },
     {
       "type": "setElementText",
       "locator": {
         "type": "css selector",
-        "value": "label > input[type=\"text\"]"
+        "value": "input.search-box"
       },
-      "text": "test3"
+      "text": "Amazon"
     },
 	{
       "type": "pause",
@@ -101,26 +131,16 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "input.Button.btn-confirm"
+        "value": "input.Button.btn-search"
       }
     },
-	{
-      "type": "pause",
-      "waitTime": "3000"
-    },
     {
-      "type": "verifyTextPresent",
-      "text": "Previous"
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "td > img"
+      }
     },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "verifyTextPresent",
-      "text": "Next"
-    },
-    
 	{
       "type": "pause",
       "waitTime": "2000"
