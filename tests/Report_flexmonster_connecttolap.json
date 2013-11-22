@@ -109,7 +109,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -120,7 +120,7 @@
     },
 	{
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "7000"
     },
     {
       "type": "setElementSelected",
