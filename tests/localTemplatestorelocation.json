@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-                {
+		{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -52,11 +52,10 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_80 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_80"
       }
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -64,9 +63,9 @@
         "value": "change_account"
       }
     },
-                {
+		{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -75,9 +74,9 @@
         "value": "img[alt=\"Sites\"]"
       }
     },
-                {
+		{
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -86,7 +85,7 @@
         "value": "Configuration Admin"
       }
     },
-    {
+		{
       "type": "pause",
       "waitTime": "5000"
     },
@@ -98,43 +97,32 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "4000"
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "local"
+      }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "asset_manager"
+        "value": "find_store"
       }
     },
     {
-      "type": "switchToWindow",
-      "name": "mcFileManagerWin"
-    },
-                {
-      "type": "pause",
-      "waitTime": "3000"
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "location_status"
+      },
+      "text": "active"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#file_1 > td.checkbox > a.checkbox"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Delete"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Yes"
+        "type": "id",
+        "value": "location_submit"
       }
     },
 		 {
