@@ -8,13 +8,6 @@
       "url": "http://mobile.where2stageit.com/ramtest/"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//html"
-      }
-    },
-    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -37,19 +30,19 @@
       "type": "verifyTextPresent",
       "text": "Niagara, WI 54151"
     },
-	{
+    {
       "type": "verifyTextPresent",
       "text": "Niagara, NC 28387"
     },
-	{
+    {
       "type": "verifyTextPresent",
       "text": "Niagara, OR 97346"
     },
-	{
+    {
       "type": "verifyTextPresent",
-      "text": "Niagara, ND 58266 "
+      "text": "Niagara, ND 58266"
     },
-	{
+    {
       "type": "verifyTextPresent",
       "text": "Niagara, KY 42420"
     },
@@ -58,8 +51,19 @@
       "text": "Niagara, PA 18453"
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ul[@id='results']//span[.='  Niagara, VA 24014 ']"
+      }
+    },
+	{
+	"type": "pause",
+	"waitTime": "5000"
+	},
+    {
       "type": "verifyTextPresent",
-      "text": "No locations were found using your search criteria [ , Niagara, PA 18453 US ]. Please try another input address to search for locations."
+      "text": "No locations were found using your search criteria [ , Niagara, VA 24014 US ]. Please try another input address to search for locations."
     }
   ]
 }
