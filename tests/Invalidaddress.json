@@ -23,8 +23,16 @@
       }
     },
     {
+	"type": "pause",
+	"waitTime": "7000"
+	},
+    {
       "type": "verifyTextPresent",
       "text": "No locations were found using your search criteria [ rajendra nagar, New Delhi US ]. Please try another input address to search for locations."
-    }
+    },
+    {
+	"type": "pause",
+	"waitTime": "5000"
+	}
   ]
 }
