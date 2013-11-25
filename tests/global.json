@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-                 {
+     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -47,9 +47,9 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "dennys"
+      "text": "denny"
     },
-    {
+   {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -64,9 +64,9 @@
         "value": "change_account"
       }
     },
-                 {
+    {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -75,18 +75,29 @@
         "value": "img[alt=\"Sites\"]"
       }
     },
-                 {
+    {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Events"
+        "value": "Configuration Admin"
       }
     },
-     {
+    {
+      "type": "pause",
+      "waitTime": "4000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "li.IgniteLocalForm > label"
+      }
+    },
+    {
       "type": "pause",
       "waitTime": "5000"
     },
@@ -94,29 +105,14 @@
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "span.edit.edit_icon"
+        "value": "#element_1072071761 > span.element_name.name_link"
       }
-    },
-     {
-      "type": "pause",
-      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "submit_button"
-      }
-    },
-             {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "type": "xpath",
+        "value": "//div[@id='lightwindow_contents']/span/form/table/tbody/tr[13]/td/ul/li[1]/input"
       }
     },
 		 {
