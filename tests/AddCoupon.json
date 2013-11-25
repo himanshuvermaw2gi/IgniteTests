@@ -106,7 +106,7 @@
         "type": "id",
         "value": "detail_title"
       },
-      "text": "SRT06"
+      "text": "SRT07"
     },
     {
       "type": "setElementText",
@@ -203,14 +203,7 @@
       "type": "pause",
       "waitTime": "3000"
     },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "name",
-        "value": "rank"
-      },
-      "text": "1"
-    },
+    
     {
       "type": "setElementSelected",
       "locator": {
