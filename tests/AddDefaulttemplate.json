@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
-    {
+		{
       "type": "pause",
       "waitTime": "3000"
     },
@@ -42,10 +42,6 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-   {
       "type": "setElementText",
       "locator": {
         "type": "css selector",
@@ -53,14 +49,15 @@
       },
       "text": "denny"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_80 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_80"
       }
     },
-    {
+
+        {
       "type": "clickElement",
       "locator": {
         "type": "id",
@@ -69,7 +66,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -78,71 +75,79 @@
         "value": "img[alt=\"Sites\"]"
       }
     },
-    {
+		{
       "type": "pause",
-      "waitTime": "2000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Configuration Admin"
+        "type": "id",
+        "value": "add_template"
       }
     },
     {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
+      "type": "setElementText",
       "locator": {
         "type": "css selector",
-        "value": "div.row.add_row > div.row.add_row > span.element_name > input.add_element.roundedCorners"
-      }
+        "value": "input[name=\"name\"]"
+      },
+      "text": "test011"
     },
     {
       "type": "setElementSelected",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='lightwindow_contents']/span/form/table/tbody/tr[1]/td[2]/select//option[6]"
+        "type": "id",
+        "value": "template_type"
       }
+    },
+		{
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "setElementSelected",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='lightwindow_contents']//select[.='(None)About']//option[2]"
+        "type": "id",
+        "value": "defaulttemplate"
       }
     },
     {
       "type": "setElementText",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='lightwindow_contents']/span/form/table/tbody/tr[3]/td[2]/input"
+        "type": "name",
+        "value": "templatedirectory"
       },
-      "text": "test01"
+      "text": "/home/desktop"
     },
     {
       "type": "setElementText",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='lightwindow_contents']/span/form/table/tbody/tr[4]/td[2]/input"
+        "type": "name",
+        "value": "templatefile"
       },
-      "text": "1"
+      "text": "/home/login.txt"
     },
     {
-      "type": "sendKeysToElement",
+      "type": "setElementText",
       "locator": {
-        "type": "xpath",
-        "value": "//html/body"
+        "type": "name",
+        "value": "hosturl"
       },
       "text": "https://www.google.com"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//div[@id='lightwindow_contents']/span/form/table/tbody/tr[13]/td/ul/li[1]/input"
+        "type": "id",
+        "value": "submit_button"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_title_bar_close_link"
       }
     },
 		 {
