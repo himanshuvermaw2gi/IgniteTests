@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-		{
+                 {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -52,10 +52,11 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_80"
+        "type": "css selector",
+        "value": "#accounts_chzn_o_80 > em"
       }
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -63,9 +64,9 @@
         "value": "change_account"
       }
     },
-		{
+                 {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -74,49 +75,94 @@
         "value": "img[alt=\"Sites\"]"
       }
     },
-		{
+                 {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Configuration Admin"
+        "value": "Locator Builder"
       }
     },
-		{
+                 {
       "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='admin_toggle']//label[.='LocalTemplates']"
-      }
+      "waitTime": "3000"
     },
     
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "find_store"
+        "value": "layout_drop_chzn_o_1"
+      }
+    },
+                 {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "color_drop_chzn_o_1"
       }
     },
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
-        "value": "location_status"
+        "value": "opt-width"
       },
-      "text": "active"
+      "text": "455"
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "opt-height"
+      },
+      "text": "87"
+    },
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "opt-radius"
+      },
+      "text": "344"
+    },
+                 {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "opt-limit"
+      },
+      "text": "456"
+    },
+                 {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "location_submit"
+        "type": "css selector",
+        "value": "input.orange-button.go-button"
       }
     },
 		 {
