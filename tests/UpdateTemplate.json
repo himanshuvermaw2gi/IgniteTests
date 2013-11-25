@@ -32,7 +32,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -47,13 +47,13 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "denny"
+      "text": "dennys"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_80"
+        "type": "css selector",
+        "value": "#accounts_chzn_o_80 > em"
       }
     },
     {
@@ -65,7 +65,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
@@ -81,19 +81,19 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='row_1071920475']/td[1]"
+        "type": "link text",
+        "value": "City level Index"
       }
     },
-     {
+    {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "4000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='submit_button']"
+        "type": "id",
+        "value": "submit_button"
       }
     },
     {
@@ -106,10 +106,6 @@
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
-    },
-		 {
-      "type": "pause",
-      "waitTime": "1000"
     }
   ]
 }
