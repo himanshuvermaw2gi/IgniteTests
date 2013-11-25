@@ -81,8 +81,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "City level index"
+        "type": "xpath",
+        "value": "//*[@id='row_1071920475']/td[1]"
       }
     },
     {
