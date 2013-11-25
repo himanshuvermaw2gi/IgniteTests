@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
-		{
+		 {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -64,7 +64,7 @@
         "value": "change_account"
       }
     },
-		{
+		 {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -75,7 +75,7 @@
         "value": "img[alt=\"Sites\"]"
       }
     },
-		{
+		 {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -83,10 +83,32 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Coupons"
+        "value": "Events"
       }
     },
-		{
+		 {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span.pause.play_icon"
+      }
+    },
+		 {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "doubleClickElement",
+      "locator": {
+        "type": "id",
+        "value": "lightwindow_overlay"
+      }
+    },
+		 {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -104,9 +126,9 @@
         "value": "submit_button"
       }
     },
-		{
+		 {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
