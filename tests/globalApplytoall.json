@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-     {
+    {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -49,14 +49,13 @@
       },
       "text": "denny"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_80 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_80"
       }
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -66,7 +65,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -77,7 +76,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -88,34 +87,23 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "li.IgniteLocalForm > label"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "5000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#element_1072071761 > span.element_name.name_link"
+        "value": "#element_-2147154422 > span.apply.apply_icon"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='lightwindow_contents']/span/form/table/tbody/tr[13]/td/ul/li[1]/input"
+        "value": "//div[@id='lightwindow_contents']/span/div/form/ul/li[2]/input"
       }
     },
-		 {
+                 {
       "type": "pause",
       "waitTime": "1000"
     }
