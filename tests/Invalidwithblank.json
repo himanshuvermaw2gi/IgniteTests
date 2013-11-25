@@ -1,0 +1,88 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://mobile.where2stageit.com/ramtest/"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "addressline"
+      },
+      "text": "karol bagh"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"submit\"]"
+      }
+    },
+	{
+	"type": "pause",
+	"waitTime": "10000"
+	},
+    {
+      "type": "verifyTextPresent",
+      "text": "1. Carsons 999 North Elmhurst Road Mt Prospect, IL60056 123-345-4568 View"
+    },
+	{
+	"type": "pause",
+	"waitTime": "4000"
+	},
+    {
+      "type": "verifyTextPresent",
+      "text": "2. W2GI Chicago 12 S. Evergreen Ave Arlington Heights, IL60005 123-345-4567 View"
+    },
+	{
+	"type": "pause",
+	"waitTime": "4000"
+	},
+    {
+      "type": "verifyTextPresent",
+      "text": "STORE DETAILS: W2GI Chicago 12 S. Evergreen Ave Arlington Heights, IL 60005 123-345-4567 Website Email"
+    },
+	{
+	"type": "pause",
+	"waitTime": "4000"
+	},
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Get Directions"
+      }
+    },
+	{
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='startaddress']"
+      },
+      "text": ""
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "search"
+      }
+    },
+	{
+	"type": "pause",
+	"waitTime": "4000"
+	},
+    {
+      "type": "verifyTextPresent",
+      "text": "Please enter an address."
+    },
+	{
+	"type": "pause",
+	"waitTime": "4000"
+	}
+  ]
+}
