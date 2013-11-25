@@ -76,7 +76,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -84,6 +84,10 @@
         "type": "link text",
         "value": "Coupons"
       }
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
