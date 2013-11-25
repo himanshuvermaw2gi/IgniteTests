@@ -106,7 +106,7 @@
         "type": "id",
         "value": "detail_title"
       },
-      "text": "SRT07"
+      "text": "SRT08"
     },
     {
       "type": "setElementText",
@@ -218,14 +218,11 @@
         "value": "submit_button"
       }
     },
-    
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "submit_button"
-      }
+      "type": "pause",
+      "waitTime": "3000"
     },
+    
     {
       "type": "clickElement",
       "locator": {
@@ -235,7 +232,7 @@
     },
 {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "1000"
     }
 
   ]
