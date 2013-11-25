@@ -30,11 +30,11 @@
         "value": "submit"
       }
     },
-		{
+                {
       "type": "pause",
       "waitTime": "3000"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
@@ -47,7 +47,7 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "denny"
+      "text": "dennys"
     },
     {
       "type": "clickElement",
@@ -63,7 +63,7 @@
         "value": "change_account"
       }
     },
-    {
+                {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -74,85 +74,42 @@
         "value": "img[alt=\"Sites\"]"
       }
     },
-		{
-      "type": "pause",
-      "waitTime": "2000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "add_template"
-      }
-    },
-		{
+                {
       "type": "pause",
       "waitTime": "3000"
     },
     {
-      "type": "setElementText",
+      "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "input[name=\"name\"]"
-      },
-      "text": "test012"
+        "type": "link text",
+        "value": "Configuration Admin"
+      }
     },
     {
-      "type": "setElementSelected",
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//table[@id='detail_table']/tbody/tr[4]/td[2]/select//option[4]"
-      }
-    },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "defaulttemplate"
-      }
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "name",
-        "value": "templatedirectory"
-      },
-      "text": "/home/desktop"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "name",
-        "value": "templatefile"
-      },
-      "text": "/home/login.txt"
-    },
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "name",
-        "value": "hosturl"
-      },
-      "text": "https://www.google.com"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "submit_button"
+        "value": "//ul[@id='admin_toggle']//label[.='LocalTemplates']"
       }
     },
     {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
-
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "lightwindow_title_bar_close_link"
+        "value": "asset_manager"
       }
+    },
+    {
+      "type": "switchToWindow",
+      "name": "mcFileManagerWin"
     },
 		 {
       "type": "pause",
