@@ -95,7 +95,7 @@
         "type": "css selector",
         "value": "input[name=\"name\"]"
       },
-      "text": "test011"
+      "text": "test012"
     },
     {
       "type": "setElementSelected",
@@ -142,6 +142,11 @@
         "value": "submit_button"
       }
     },
+    {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
