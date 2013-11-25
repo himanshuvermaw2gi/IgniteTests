@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-		 {
+                {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -52,11 +52,10 @@
    {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_80 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_80"
       }
     },
-
     {
       "type": "clickElement",
       "locator": {
@@ -64,9 +63,9 @@
         "value": "change_account"
       }
     },
-		 {
+                {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -75,7 +74,7 @@
         "value": "img[alt=\"Sites\"]"
       }
     },
-		 {
+                {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -83,42 +82,21 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Events"
+        "value": "Coupons"
       }
     },
-		 {
+            {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "span.pause.play_icon"
+        "value": "span.edit.edit_icon"
       }
     },
-		 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "doubleClickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_overlay"
-      }
-    },
-		 {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "span.delete.delete_icon"
-      }
-    },
+    
     {
       "type": "clickElement",
       "locator": {
@@ -126,9 +104,9 @@
         "value": "submit_button"
       }
     },
-		 {
+            {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
