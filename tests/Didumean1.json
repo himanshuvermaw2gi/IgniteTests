@@ -24,8 +24,15 @@
     },
 	{
 	"type": "pause",
-	"waitTime": "10000"
+	"waitTime": "5000"
 	},
+	{
+      "type": "verifyTextPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='item']/a/span"
+      }
+    },
     {
       "type": "verifyTextPresent",
       "text": "Niagara, WI 54151"
