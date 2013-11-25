@@ -191,28 +191,14 @@
       "type": "pause",
       "waitTime": "2000"
     },
-
-    {
-      "type": "clickElement",
+{
+      "type": "setElementSelected",
       "locator": {
         "type": "id",
-        "value": "expiration_date"
+        "value": "no_expiration_date"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "datepicker-expiration_date-next"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "expiration_date-2013-12-31"
-      }
-    },
+    
     {
       "type": "pause",
       "waitTime": "3000"
@@ -239,13 +225,7 @@
         "value": "submit_button"
       }
     },
-    {
-      "type": "setElementSelected",
-      "locator": {
-        "type": "id",
-        "value": "no_expiration_date"
-      }
-    },
+    
     {
       "type": "clickElement",
       "locator": {
