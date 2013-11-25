@@ -30,7 +30,7 @@
         "value": "submit"
       }
     },
-                {
+		{
       "type": "pause",
       "waitTime": "3000"
     },
@@ -49,13 +49,14 @@
       },
       "text": "dennys"
     },
-    {
+   {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_80"
+        "type": "css selector",
+        "value": "#accounts_chzn_o_80 > em"
       }
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -63,7 +64,7 @@
         "value": "change_account"
       }
     },
-                {
+		{
       "type": "pause",
       "waitTime": "3000"
     },
@@ -74,7 +75,7 @@
         "value": "img[alt=\"Sites\"]"
       }
     },
-                {
+		{
       "type": "pause",
       "waitTime": "3000"
     },
@@ -82,21 +83,28 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Configuration Admin"
+        "value": "Coupons"
       }
     },
-    {
+		{
       "type": "pause",
       "waitTime": "3000"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//ul[@id='admin_toggle']//label[.='LocalTemplates']"
+        "type": "css selector",
+        "value": "span.delete.delete_icon"
       }
     },
     {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "submit_button"
+      }
+    },
+		{
       "type": "pause",
       "waitTime": "5000"
     },
@@ -104,12 +112,8 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "asset_manager"
+        "value": "lightwindow_title_bar_close_link"
       }
-    },
-    {
-      "type": "switchToWindow",
-      "name": "mcFileManagerWin"
     },
 		 {
       "type": "pause",
