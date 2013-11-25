@@ -52,10 +52,11 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_266"
+        "type": "css selector",
+        "value": "#accounts_chzn_o_80 > em"
       }
     },
+
     {
       "type": "clickElement",
       "locator": {
