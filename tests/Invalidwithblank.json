@@ -42,14 +42,7 @@
       }
     },
    
-	{
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='startaddress']"
-      },
-      "text": ""
-    },
+
     {
       "type": "clickElement",
       "locator": {
