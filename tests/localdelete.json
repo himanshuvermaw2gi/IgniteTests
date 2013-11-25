@@ -93,8 +93,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "local"
+        "type": "xpath",
+        "value": "//ul[@id='admin_toggle']//label[.='LocalTemplates']"
       }
     },
     {
