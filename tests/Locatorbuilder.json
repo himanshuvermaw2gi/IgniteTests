@@ -94,10 +94,18 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "layout_drop_chzn_o_1"
+        "type": "xpath",
+        "value": "//*[@id='layout_drop_chzn']/a/div/b"
       }
     },
+	 {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='layout_drop_chzn_o_0']"
+      }
+    },
+	
                  {
       "type": "pause",
       "waitTime": "3000"
@@ -106,8 +114,15 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "color_drop_chzn_o_1"
+        "type": "xpath",
+        "value": "//*[@id='color_drop_chzn']/a/div/b"
+      }
+    },
+	 {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='color_drop_chzn_o_1']"
       }
     },
     {
