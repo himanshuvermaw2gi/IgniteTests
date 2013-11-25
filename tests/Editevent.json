@@ -30,9 +30,9 @@
         "value": "submit"
       }
     },
-                {
+                 {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -49,13 +49,14 @@
       },
       "text": "dennys"
     },
-   {
+    {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_80"
+        "type": "css selector",
+        "value": "#accounts_chzn_o_80 > em"
       }
     },
+
     {
       "type": "clickElement",
       "locator": {
@@ -63,9 +64,9 @@
         "value": "change_account"
       }
     },
-                {
+                 {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -74,7 +75,7 @@
         "value": "img[alt=\"Sites\"]"
       }
     },
-                {
+                 {
       "type": "pause",
       "waitTime": "3000"
     },
@@ -82,10 +83,10 @@
       "type": "clickElement",
       "locator": {
         "type": "link text",
-        "value": "Coupons"
+        "value": "Events"
       }
     },
-            {
+     {
       "type": "pause",
       "waitTime": "5000"
     },
@@ -96,7 +97,10 @@
         "value": "span.edit.edit_icon"
       }
     },
-    
+     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -104,9 +108,9 @@
         "value": "submit_button"
       }
     },
-            {
+             {
       "type": "pause",
-      "waitTime": "5000"
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
