@@ -8,13 +8,6 @@
       "url": "https://ignite.where2stageit.com/login.html"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "loginid"
-      }
-    },
-    {
       "type": "setElementText",
       "locator": {
         "type": "id",
@@ -37,9 +30,9 @@
         "value": "submit"
       }
     },
-                {
+    {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "2000"
     },
     {
       "type": "clickElement",
@@ -59,8 +52,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "xpath",
-        "value": "//*[@id='accounts_chzn_o_80']"
+        "type": "css selector",
+        "value": "#accounts_chzn_o_80 > em"
       }
     },
     {
@@ -70,21 +63,20 @@
         "value": "change_account"
       }
     },
-                {
+    {
       "type": "pause",
       "waitTime": "3000"
     },
-    
     {
       "type": "clickElement",
       "locator": {
-        "type": "link text",
-        "value": "Sites"
+        "type": "css selector",
+        "value": "img[alt=\"Sites\"]"
       }
     },
-                {
+    {
       "type": "pause",
-      "waitTime": "3000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -92,10 +84,6 @@
         "type": "link text",
         "value": "Coupons"
       }
-    },
-                {
-      "type": "pause",
-      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -105,12 +93,16 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "3000"
+    },
+    {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "detail_title"
       },
-      "text": "SRT01"
+      "text": "SRT06"
     },
     {
       "type": "setElementText",
@@ -118,7 +110,7 @@
         "type": "id",
         "value": "detail_description"
       },
-      "text": "sale test"
+      "text": "cricket test"
     },
     {
       "type": "setElementText",
@@ -126,7 +118,11 @@
         "type": "name",
         "value": "couponoffer"
       },
-      "text": "10%"
+      "text": "25%"
+    },
+    {
+      "type": "pause",
+      "waitTime": "3000"
     },
     {
       "type": "clickElement",
@@ -139,9 +135,21 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "publish_start_date-2013-12-16"
+        "value": "datepicker-publish_start_date-next"
       }
     },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "publish_start_date-2013-12-25"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "3000"
+    },
+
     {
       "type": "clickElement",
       "locator": {
@@ -153,14 +161,45 @@
       "type": "clickElement",
       "locator": {
         "type": "id",
-        "value": "publish_end_date-2013-12-18"
+        "value": "datepicker-publish_end_date-next"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "2000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "datepicker-publish_end_date-next"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "id",
+        "value": "publish_end_date-2014-01-29"
+      }
+    },
+{
+      "type": "pause",
+      "waitTime": "2000"
+    },
+
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
         "value": "expiration_date"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "datepicker-expiration_date-next"
       }
     },
     {
@@ -174,13 +213,13 @@
       "type": "pause",
       "waitTime": "3000"
     },
-   
     {
-      "type": "setElementSelected",
+      "type": "setElementText",
       "locator": {
-        "type": "id",
-        "value": "coupon_suspend"
-      }
+        "type": "name",
+        "value": "rank"
+      },
+      "text": "1"
     },
     {
       "type": "setElementSelected",
@@ -190,8 +229,18 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "3000"
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "submit_button"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "no_expiration_date"
+      }
     },
     {
       "type": "clickElement",
@@ -201,19 +250,16 @@
       }
     },
     {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
       "type": "clickElement",
       "locator": {
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
     },
-		 {
+{
       "type": "pause",
-      "waitTime": "1000"
+      "waitTime": "3000"
     }
+
   ]
 }
