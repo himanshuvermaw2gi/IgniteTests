@@ -1,0 +1,71 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://mobile.where2stageit.com/ramtest/"
+    },
+	{
+	"type": "pause",
+	"waitTime": "3000"
+	},
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "addressline"
+      },
+      "text": "florida"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"submit\"]"
+      }
+    },
+	{
+	"type": "pause",
+	"waitTime": "2000"
+	},
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.actions > span"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Get Directions"
+      }
+    },
+    {
+	"type": "pause",
+	"waitTime": "3000"
+	},
+	{
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//*[@id='startaddress']"
+      },
+      "text": "Al"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "search"
+      }
+    },
+	{
+	"type": "pause",
+	"waitTime": "3000"
+	}
+  ]
+}
