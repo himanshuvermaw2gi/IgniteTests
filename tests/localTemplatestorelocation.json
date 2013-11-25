@@ -96,13 +96,7 @@
         "value": "//ul[@id='admin_toggle']//label[.='LocalTemplates']"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "local"
-      }
-    },
+    
     {
       "type": "clickElement",
       "locator": {
