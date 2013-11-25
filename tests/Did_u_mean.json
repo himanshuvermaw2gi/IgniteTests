@@ -32,7 +32,7 @@
 	{
 	"type": "pause",
 	"waitTime": "10000"
-	}
+	},
 	{
 	  "type": "verifyTextPresent",
       "text": "Niagara, WI 54151 "
