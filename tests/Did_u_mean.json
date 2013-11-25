@@ -36,7 +36,7 @@
 	{
 	  "type": "verifyTextPresent",
       "text": "Niagara, WI 54151 "
-	},
+	}
     
   ]
 }
