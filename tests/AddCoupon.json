@@ -59,8 +59,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "id",
-        "value": "accounts_chzn_o_266"
+        "type": "xpath",
+        "value": "//*[@id='accounts_chzn_o_80']"
       }
     },
     {
