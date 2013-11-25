@@ -24,10 +24,32 @@
     },
 	{
 	"type": "pause",
-	"waitTime": "5000"
+	"waitTime": "10000"
 	},
-   
-   
+    {
+      "type": "verifyTextPresent",
+      "text": "Niagara, WI 54151"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Niagara, NC 28387"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Niagara, OR 97346"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Niagara, ND 58266"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Niagara, KY 42420"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Niagara, PA 18453"
+    },
     {
       "type": "clickElement",
       "locator": {
