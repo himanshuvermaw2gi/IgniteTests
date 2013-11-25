@@ -12,7 +12,7 @@
           },
           "browserOptions": {
             "browserName": "firefox",
-            "platform" : "WINDOWS 7",
+            "platform" : "XP",
             "acceptSslCerts": true,
             "browserstack.user": "ManasBehera",
             "browserstack.key": "eX1xEpXvayTfP8AnvaSc",
