@@ -85,6 +85,10 @@
         "value": "//*[@id='row_1071920475']/td[1]"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "5000"
+    },
     {
       "type": "clickElement",
       "locator": {
