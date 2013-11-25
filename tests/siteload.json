@@ -47,13 +47,13 @@
         "type": "css selector",
         "value": "input[type=\"text\"]"
       },
-      "text": "dennys"
+      "text": "denny"
     },
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "#accounts_chzn_o_80 > em"
+        "type": "id",
+        "value": "accounts_chzn_o_80"
       }
     },
     {
@@ -65,7 +65,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -74,38 +74,9 @@
         "value": "img[alt=\"Sites\"]"
       }
     },
-    {
+		 {
       "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "City level Index"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "4000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "submit_button"
-      }
-    },
-    {
-      "type": "pause",
-      "waitTime": "3000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
+      "waitTime": "1000"
     }
   ]
 }
