@@ -7,17 +7,32 @@
       "type": "get",
       "url": "http://mobile.where2stageit.com/ramtest/"
     },
-	{
-	"type": "pause",
-	"waitTime": "3000"
-	},
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "addressline"
       },
-      "text": "florida"
+      "text": "35004"
+    },
+	{
+	"type": "pause",
+	"waitTime": "5000"
+	},
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"submit\"]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "addressline"
+      },
+      "text": "36901"
     },
     {
       "type": "clickElement",
@@ -30,42 +45,30 @@
 	"type": "pause",
 	"waitTime": "5000"
 	},
+	{
+      "type": "verifyTextPresent",
+      "text": "No locations were found using your search criteria [ 35004 US ]. Please try another input address to search for locations."
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "addressline"
+      },
+      "text": "32024"
+    },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "div.actions > span"
+        "value": "input[type=\"submit\"]"
       }
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Get Directions"
-      }
-    },
-    {
+	{
 	"type": "pause",
 	"waitTime": "5000"
 	},
-	{
-      "type": "setElementText",
-      "locator": {
-        "type": "xpath",
-        "value": "//*[@id='startaddress']"
-      },
-      "text": "35004"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "search"
-      }
-    },
-	{
-	"type": "pause",
-	"waitTime": "5000"
-	}
+    
+    
   ]
 }
