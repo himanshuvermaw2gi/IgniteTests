@@ -1,0 +1,52 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://mobile.where2stageit.com/ramtest/index-nativemap.html"
+    },
+	{
+	"type": "pause",
+	"waitTime": "5000"
+	},
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "body"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "addressline"
+      },
+      "text": "MARY ROE    MEGASYSTEMS INC    SUITE 5A-1204    799 E DRAGRAM    TUCSON AZ 85705    USA"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "body"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "input[type=\"submit\"]"
+      }
+    },
+	{
+	"type": "pause",
+	"waitTime": "15000"
+	},
+    {
+      "type": "verifyTextPresent",
+      "text": "You entered an address which could not be geocoded [ MARY ROE MEGASYSTEMS INC SUITE 5A-1"
+    }
+  ]
+}
