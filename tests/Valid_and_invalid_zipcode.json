@@ -43,7 +43,7 @@
     },
 	{
 	"type": "pause",
-	"waitTime": "10000"
+	"waitTime": "20000"
 	},
 	{
       "type": "verifyTextPresent",
