@@ -7,24 +7,18 @@
       "type": "get",
       "url": "http://mobile.where2stageit.com/ramtest/index-nativemap.html"
     },
+	
 	{
 	"type": "pause",
 	"waitTime": "5000"
 	},
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "body"
-      }
-    },
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "addressline"
       },
-      "text": "MARY ROE    MEGASYSTEMS INC    SUITE 5A-1204    799 E DRAGRAM    TUCSON AZ 85705    USA"
+      "text": "JOHN \"GULLIBLE\" DOE    CENTER FOR FINANCIAL ASSISTANCE TO DEPOSED NIGERIAN ROYALTY    421 E DRACHMAN"
     },
     {
       "type": "clickElement",
@@ -42,11 +36,14 @@
     },
 	{
 	"type": "pause",
-	"waitTime": "80000"
+	"waitTime": "8000"
 	},
     {
-      "type": "verifyTextPresent",
-      "text": "You entered an address which could not be geocoded [ MARY ROE MEGASYSTEMS INC SUITE 5A-1204 799 E DRAGRAM TUCSON AZ 85705 USA US ]. Please try another input address to search for locations."
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Get Directions"
+      }
     }
   ]
 }
