@@ -46,12 +46,9 @@
     },
 	{
 	"type": "pause",
-	"waitTime": "10000"
+	"waitTime": "20000"
 	},
-	{
-      "type": "switchToWindow",
-      "name": "div.tab_label"
-    },
+
     {
 	"type": "pause",
 	"waitTime": "10000"
