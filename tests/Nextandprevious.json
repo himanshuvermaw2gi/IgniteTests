@@ -173,7 +173,7 @@
         "waitTime": "8000"
         },
     {
-      "type": "selectElement",
+      "type": "clickElement",
       "locator": {
         "type": "xpath",
         "value": "//div[@id='OpenLayers.Feature_183_popup_contentDiv']/div[2]"
