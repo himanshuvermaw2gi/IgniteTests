@@ -168,6 +168,18 @@
         "value": "//div[@id='panel']/table/thead/tr[2]/th/div[2]/a[1]"
       }
     },
+    	{
+        "type": "pause",
+        "waitTime": "8000"
+        },
+    {
+      "type": "selectElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='OpenLayers.Feature_183_popup_contentDiv']/div[2]"
+      }
+    },
+    
 	{
         "type": "pause",
         "waitTime": "4000"
