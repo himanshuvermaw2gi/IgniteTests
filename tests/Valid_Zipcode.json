@@ -1,0 +1,74 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://hosted.where2getit.com/wafflehouse/"
+    },
+	{
+        "type": "pause",
+        "waitTime": "4000"
+        },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "td > input[name=\"addressline\"]"
+      },
+      "text": "35004"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "search_button"
+      }
+    },
+	{
+        "type": "pause",
+        "waitTime": "4000"
+        },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Waffle House #825"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Waffle House #1093"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Waffle House #756"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Waffle House #1033"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Waffle House #1961"
+      }
+    },
+	{
+        "type": "pause",
+        "waitTime": "3000"
+        }
+    
+  ]
+}
