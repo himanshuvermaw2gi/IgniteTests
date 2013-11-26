@@ -1,0 +1,114 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://hosted.where2getit.com/wafflehouse/"
+    },
+	{
+	"type": "pause",
+	"waitTime": "4000"
+	},
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "td > input[name=\"addressline\"]"
+      },
+      "text": "fl"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "search_button"
+      }
+    },
+	{
+	"type": "pause",
+	"waitTime": "4000"
+	},
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Waffle House #504"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Waffle House #650"
+      }
+    },
+	{
+	"type": "pause",
+	"waitTime": "4000"
+	},
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='OpenLayers.Feature_103_popup_contentDiv']//div[.='Directions']"
+      }
+    },
+	{
+	"type": "pause",
+	"waitTime": "4000"
+	},
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='OpenLayers.Feature_103_popup_contentDiv']//div[.='Address']"
+      }
+    },
+	{
+	"type": "pause",
+	"waitTime": "4000"
+	},
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='OpenLayers.Feature_103_popup_contentDiv']//div[.='Directions']"
+      }
+    },
+	{
+	"type": "pause",
+	"waitTime": "2000"
+	},
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "div.tab_content.activetabcontent > div > form > input[name=\"addressline\"]"
+      },
+      "text": "AL"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.tab_content.activetabcontent > div > form > input[type=\"submit\"]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.tab_content.activetabcontent > div > form > input[type=\"submit\"]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='panel']//a[.='Get reverse directions']"
+      }
+    }
+  ]
+}
