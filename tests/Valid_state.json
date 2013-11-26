@@ -46,75 +46,9 @@
     },
 	{
 	"type": "pause",
-	"waitTime": "20000"
-	},
+	"waitTime": "3000"
+	}
 
-    {
-	"type": "pause",
-	"waitTime": "10000"
-	},
-
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='OpenLayers.Feature_103_popup_contentDiv']//div[.='Directions']"
-      }
-    },
-	{
-	"type": "pause",
-	"waitTime": "4000"
-	},
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='OpenLayers.Feature_103_popup_contentDiv']//div[.='Address']"
-      }
-    },
-	{
-	"type": "pause",
-	"waitTime": "4000"
-	},
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='OpenLayers.Feature_103_popup_contentDiv']//div[.='Directions']"
-      }
-    },
-	{
-	"type": "pause",
-	"waitTime": "2000"
-	},
-    {
-      "type": "setElementText",
-      "locator": {
-        "type": "css selector",
-        "value": "div.tab_content.activetabcontent > div > form > input[name=\"addressline\"]"
-      },
-      "text": "AL"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "div.tab_content.activetabcontent > div > form > input[type=\"submit\"]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "div.tab_content.activetabcontent > div > form > input[type=\"submit\"]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='panel']//a[.='Get reverse directions']"
-      }
-    }
+   
   ]
 }
