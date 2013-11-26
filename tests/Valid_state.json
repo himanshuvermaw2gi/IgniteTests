@@ -48,6 +48,15 @@
 	"type": "pause",
 	"waitTime": "10000"
 	},
+	{
+      "type": "switchToWindow",
+      "name": "div.tab_label"
+    },
+    {
+	"type": "pause",
+	"waitTime": "10000"
+	},
+
     {
       "type": "clickElement",
       "locator": {
