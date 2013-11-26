@@ -1,0 +1,27 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://hosted.where2getit.com/wafflehouse/"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "css selector",
+        "value": "td > input[name=\"addressline\"]"
+      },
+      "text": "110045"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "search_button"
+      }
+    }
+    
+  ]
+}
