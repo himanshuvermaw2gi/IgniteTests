@@ -41,8 +41,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "css selector",
-        "value": "a.getdirections"
+        "type": "xpath",
+        "value": "//li[@id='item']//a[.='Get Directions']"
       }
     }
   ]
