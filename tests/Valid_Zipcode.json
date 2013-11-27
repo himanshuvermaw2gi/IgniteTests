@@ -17,7 +17,7 @@
         "type": "id",
         "value": "inputaddress"
       },
-      "text": "FL"
+      "text": "32801"
     },
     {
       "type": "setElementSelected",
@@ -46,22 +46,8 @@
     },
 	{
 	"type": "pause",
-	"waitTime": "10000"
+	"waitTime": "5000"
 	},
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='OpenLayers.Feature_107_popup_contentDiv']/img[3]"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "link text",
-        "value": "Disney World"
-      }
-    },
     {
       "type": "clickElement",
       "locator": {
@@ -75,6 +61,17 @@
         "type": "xpath",
         "value": "//div[@id='OpenLayers.Feature_107_popup_contentDiv']//div[.='Address']"
       }
-    }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='OpenLayers.Feature_107_popup_contentDiv']/img[3]"
+      }
+    },
+	{
+	"type": "pause",
+	"waitTime": "3000"
+	}
   ]
 }
