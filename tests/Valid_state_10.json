@@ -17,13 +17,13 @@
         "type": "id",
         "value": "inputaddress"
       },
-      "text": "110078"
+      "text": "FL"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//form[@id='locator_search']/table/tbody/tr[2]/td[2]/select//option[5]"
+        "value": "//form[@id='locator_search']/table/tbody/tr[2]/td[2]/select//option[2]"
       }
     },
     {
