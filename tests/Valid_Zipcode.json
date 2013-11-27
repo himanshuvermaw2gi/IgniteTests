@@ -87,28 +87,7 @@
         "type": "xpath",
         "value": "//div[@id='OpenLayers.Feature_98_popup_contentDiv']/div[3]/div[2]/div[1]/div[5]/form/input[2]"
       }
-    },
-	{
-      "type": "pause",
-      "waitTime": "9000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#OL_Icon_144 > div"
-      }
-    },
-	{
-      "type": "pause",
-      "waitTime": "9000"
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "css selector",
-        "value": "#OL_Icon_436 > div"
-      }
     }
+	
   ]
 }
