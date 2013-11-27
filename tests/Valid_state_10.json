@@ -17,19 +17,15 @@
         "type": "id",
         "value": "inputaddress"
       },
-      "text": "xyz00012345"
+      "text": "fl"
     },
     {
       "type": "setElementSelected",
       "locator": {
         "type": "xpath",
-        "value": "//form[@id='locator_search']/table/tbody/tr[2]/td[2]/select//option[5]"
+        "value": "//form[@id='locator_search']/table/tbody/tr[2]/td[2]/select//option[2]"
       }
     },
-	{
-	"type": "pause",
-	"waitTime": "5000"
-	},
     {
       "type": "clickElement",
       "locator": {
@@ -47,6 +43,10 @@
         "type": "id",
         "value": "lightwindow_title_bar_close_link"
       }
-    }
+    },
+	{
+	"type": "pause",
+	"waitTime": "5000"
+	}
   ]
 }
