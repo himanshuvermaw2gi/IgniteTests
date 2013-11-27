@@ -18,6 +18,10 @@
         "value": "search_button"
       }
     },
+    	{
+	"type": "pause",
+	"waitTime": "5000"
+	},
     {
       "type": "clickElement",
       "locator": {
