@@ -7,17 +7,20 @@
       "type": "get",
       "url": "http://hosted.where2stageit.com/ramtest/"
     },
-	{
-        "type": "pause",
-        "waitTime": "5000"
-        },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "panel"
+      }
+    },
     {
       "type": "setElementText",
       "locator": {
         "type": "id",
         "value": "inputaddress"
       },
-      "text": "32801"
+      "text": "FL"
     },
     {
       "type": "setElementSelected",
@@ -33,10 +36,6 @@
         "value": "search_button"
       }
     },
-	{
-        "type": "pause",
-        "waitTime": "5000"
-        },
     {
       "type": "clickElement",
       "locator": {
@@ -44,10 +43,10 @@
         "value": "Disney World"
       }
     },
-	{
-        "type": "pause",
-        "waitTime": "5000"
-        },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
     {
       "type": "clickElement",
       "locator": {
@@ -66,7 +65,40 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='OpenLayers.Feature_98_popup_contentDiv']/img[3]"
+        "value": "//div[@id='OpenLayers.Feature_98_popup_contentDiv']/div[3]/div[2]/div[1]/div[5]/form/input[1]"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='OpenLayers.Feature_98_popup_contentDiv']/div[3]/div[2]/div[1]/div[5]/form/input[1]"
+      },
+      "text": "GA"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='OpenLayers.Feature_98_popup_contentDiv']/div[3]/div[2]/div[1]/div[5]/form/input[2]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#OL_Icon_144 > div"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#OL_Icon_4521 > div"
       }
     }
   ]
