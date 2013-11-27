@@ -1,0 +1,80 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://hosted.where2stageit.com/ramtest/nogeoip.html"
+    },
+	{
+	"type": "pause",
+	"waitTime": "5000"
+	},
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "inputaddress"
+      },
+      "text": "FL"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@id='locator_search']/table/tbody/tr[2]/td[2]/select//option[5]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "search_button"
+      }
+    },
+	{
+	"type": "pause",
+	"waitTime": "5000"
+	},
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Disney World"
+      }
+    },
+	{
+	"type": "pause",
+	"waitTime": "10000"
+	},
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='OpenLayers.Feature_107_popup_contentDiv']/img[3]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Disney World"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='OpenLayers.Feature_107_popup_contentDiv']//div[.='Hours']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='OpenLayers.Feature_107_popup_contentDiv']//div[.='Address']"
+      }
+    }
+  ]
+}
