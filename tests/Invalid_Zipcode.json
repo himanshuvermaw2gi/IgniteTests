@@ -7,7 +7,7 @@
       "type": "get",
       "url": "http://hosted.where2stageit.com/ramtest/"
     },
-	 {
+	{
         "type": "pause",
         "waitTime": "5000"
         },
@@ -17,30 +17,8 @@
         "type": "id",
         "value": "inputaddress"
       },
-      "text": "xyz00012345"
+      "text": "110078"
     },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "search_button"
-      }
-    },
-	 {
-        "type": "pause",
-        "waitTime": "5000"
-        },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "lightwindow_title_bar_close_link"
-      }
-    },
-	 {
-        "type": "pause",
-        "waitTime": "3000"
-        },
     {
       "type": "setElementSelected",
       "locator": {
@@ -55,7 +33,7 @@
         "value": "search_button"
       }
     },
-	 {
+	{
         "type": "pause",
         "waitTime": "5000"
         },
