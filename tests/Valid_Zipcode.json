@@ -8,11 +8,8 @@
       "url": "http://hosted.where2stageit.com/ramtest/"
     },
     {
-      "type": "clickElement",
-      "locator": {
-        "type": "id",
-        "value": "panel"
-      }
+      "type": "pause",
+      "waitTime": "5000"
     },
     {
       "type": "setElementText",
@@ -20,7 +17,7 @@
         "type": "id",
         "value": "inputaddress"
       },
-      "text": "FL"
+      "text": "32801"
     },
     {
       "type": "setElementSelected",
@@ -37,6 +34,10 @@
       }
     },
     {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
       "type": "clickElement",
       "locator": {
         "type": "link text",
@@ -45,7 +46,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "9000"
+      "waitTime": "5000"
     },
     {
       "type": "clickElement",
@@ -65,10 +66,10 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//div[@id='OpenLayers.Feature_98_popup_contentDiv']/div[3]/div[2]/div[1]/div[5]/form/input[1]"
+        "value": "//div[@id='OpenLayers.Feature_98_popup_contentDiv']/img[3]"
       }
     },
-    {
+	{
       "type": "pause",
       "waitTime": "5000"
     },
@@ -78,7 +79,7 @@
         "type": "xpath",
         "value": "//div[@id='OpenLayers.Feature_98_popup_contentDiv']/div[3]/div[2]/div[1]/div[5]/form/input[1]"
       },
-      "text": "GA"
+      "text": "32837"
     },
     {
       "type": "clickElement",
@@ -87,9 +88,9 @@
         "value": "//div[@id='OpenLayers.Feature_98_popup_contentDiv']/div[3]/div[2]/div[1]/div[5]/form/input[2]"
       }
     },
-    {
+	{
       "type": "pause",
-      "waitTime": "15000"
+      "waitTime": "9000"
     },
     {
       "type": "clickElement",
@@ -98,15 +99,15 @@
         "value": "#OL_Icon_144 > div"
       }
     },
-    {
+	{
       "type": "pause",
-      "waitTime": "10000"
+      "waitTime": "9000"
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "css selector",
-        "value": "#OL_Icon_4521 > div"
+        "value": "#OL_Icon_436 > div"
       }
     }
   ]
