@@ -5,5 +5,5 @@ script:
      - "se-interpreter Interpreter_config.browserstack.json"
 
 browserstack_connect:
-    username: "Mahesh22"
-    secure: "Rr2sU7vyFoNDovpx7Rh7"
+    username: "abc243"
+    secure: "tx8s6a4ay7dSkkxUMjX2"
