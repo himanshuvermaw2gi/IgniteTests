@@ -88,6 +88,10 @@
         "value": "#OL_Icon_144 > div"
       }
     },
+     {
+      "type": "pause",
+      "waitTime": "15000"
+    },
     {
       "type": "clickElement",
       "locator": {
