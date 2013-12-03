@@ -12,7 +12,7 @@
         "waitTime": "5000"
         },
         {
-         "type": "clearSelections",
+         "type": "setElementNotSelected",
          "locator": {
          "type": "xpath",
          "value": "//*[@id='inputaddress']"
