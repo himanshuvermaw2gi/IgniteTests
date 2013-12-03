@@ -17,7 +17,7 @@
         "type": "id",
         "value": "inputaddress"
       },
-      "text": "fl"
+      "text": "32801"
     },
     {
       "type": "setElementSelected",
@@ -60,7 +60,7 @@
     },
     {
       "type": "pause",
-      "waitTime": "14000"
+      "waitTime": "15000"
     },
     {
       "type": "setElementText",
@@ -68,7 +68,7 @@
         "type": "xpath",
         "value": "//div[@id='OpenLayers.Feature_98_popup_contentDiv']/div[3]/div[2]/div[1]/div[5]/form/input[1]"
       },
-      "text": "al"
+      "text": "32837"
     },
     {
       "type": "clickElement",
@@ -79,8 +79,21 @@
     },
     {
       "type": "pause",
-      "waitTime": "4000"
+      "waitTime": "15000"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#OL_Icon_144 > div"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#OL_Icon_436 > div"
+      }
     }
-    
   ]
 }
