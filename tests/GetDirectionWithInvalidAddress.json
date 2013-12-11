@@ -9,7 +9,7 @@
     },
  {
         "type": "pause",
-        "waitTime": "3000"
+        "waitTime": "4000"
         },
 
     {
@@ -29,7 +29,7 @@
     },
         {
         "type": "pause",
-        "waitTime": "3000"
+        "waitTime": "7000"
         },
     {
       "type": "clickElement",
@@ -39,12 +39,20 @@
       }
     },
     {
+        "type": "pause",
+        "waitTime": "5000"
+        },
+    {
       "type": "clickElement",
       "locator": {
         "type": "link text",
         "value": "Get Directions"
       }
     },
+    {
+        "type": "pause",
+        "waitTime": "5000"
+        },
     {
       "type": "setElementText",
       "locator": {
@@ -53,6 +61,10 @@
       },
       "text": "xyz00012345"
     },
+    {
+        "type": "pause",
+        "waitTime": "6000"
+        },
     {
       "type": "clickElement",
       "locator": {
