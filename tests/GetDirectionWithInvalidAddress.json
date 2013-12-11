@@ -29,7 +29,7 @@
     },
         {
         "type": "pause",
-        "waitTime": "7000"
+        "waitTime": "3000"
         },
     {
       "type": "clickElement",
@@ -38,11 +38,6 @@
         "value": "div.actions > span"
       }
     },
- {
-        "type": "pause",
-        "waitTime": "4000"
-        },
-
     {
       "type": "clickElement",
       "locator": {
@@ -50,11 +45,6 @@
         "value": "Get Directions"
       }
     },
- {
-        "type": "pause",
-        "waitTime": "4000"
-        },
-
     {
       "type": "setElementText",
       "locator": {
